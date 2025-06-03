@@ -42,11 +42,16 @@
     }
 
     /* ✅ h2~h4 스타일 */
-    .markdown-section h2,
-    .markdown-section h2 a {
+/* h2 제목 및 자동 링크(anchor) 강제 색상 적용 */
+.markdown-section h2,
+.markdown-section h2 a,
+.markdown-section h2 a:visited,
+.markdown-section h2 a:hover,
+.markdown-section h2 a:active {
   color: #f4c66c !important;
   text-decoration: none !important;
 }
+
 
     .markdown-section h3,
     .markdown-section h3 a,
