@@ -17,8 +17,7 @@
     }
 
     /* ✅ h1 제목 스타일 - 로고 색상 강조 + 글씨 흰색 */
-    .markdown-section h1,
-    .markdown-section h1 a {
+    .markdown-section h1 {
       color: #ffffff !important;
       font-size: 1.5em !important;
       font-weight: bold !important;
@@ -29,7 +28,12 @@
       word-break: keep-all;
     }
 
-    /* ✅ h1 내부 요소는 흰색 유지 */
+    .markdown-section h1 a {
+      color: inherit !important;
+      text-decoration: none;
+      border: none !important;
+    }
+
     .markdown-section h1 strong,
     .markdown-section h1 em,
     .markdown-section h1 span {
