@@ -2,7 +2,7 @@
 
 ## Type I: 호흡 의존형 (Breath-Dependent Type)
 
-<img src="T1_breath_dependent" alt="Type I 호흡 의존형 이미지" width="480" style="margin-bottom: 24px;" />
+<img src="T1_breath_dependent.png" alt="Type I 호흡 의존형 이미지" width="480" style="margin-bottom: 24px;" />
 
 호흡 의존형 발성은 호흡(에너지원)의 압력 조절이 과도하게 이루어지면서,  
 **1차 밸브(내후두근을 포함한 성대)** 와 **2차 밸브(성도)** 의 조절 능력이 부족하여 나타나는 발성 패턴입니다.
