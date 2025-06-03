@@ -1,11 +1,1 @@
-# 1. 빈 파일 생성
-touch .nojekyll
 
-# 2. Git에 추가
-git add .nojekyll
-
-# 3. 커밋
-git commit -m "Add .nojekyll to prevent GitHub Pages from ignoring _sidebar.md"
-
-# 4. 푸시
-git push
