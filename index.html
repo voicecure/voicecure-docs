@@ -18,7 +18,16 @@
 
     /* 제목 강조 스타일 – 로고 색상에 맞춤 */
     .markdown-section h1,
-    .markdown-section h1 a,
+.markdown-section h1 a {
+  color: #ffffff !important;
+  font-size: 1.8em !important;  /* 기존보다 약간 작게 조정 */
+  font-weight: bold !important;
+  border-left: 5px solid #f4c66c;
+  padding-left: 12px;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+  word-break: keep-all;  /* 한글 단어 잘림 방지 */
+}
     .markdown-section h2,
     .markdown-section h2 a {
       color: #f4c66c !important;
