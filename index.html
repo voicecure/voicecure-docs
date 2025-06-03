@@ -7,18 +7,15 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
 
   <style>
-    /* 전체 배경 및 기본 텍스트 */
     body {
       background-color: #1e1e1e;
       color: #f0f0f0;
     }
 
-    /* Markdown 본문 텍스트 */
     .markdown-section {
       color: #f0f0f0;
     }
 
-    /* 제목: 선명한 하늘색 */
     .markdown-section h1,
     .markdown-section h2,
     .markdown-section h3,
@@ -26,12 +23,10 @@
       color: #4FC1FF !important;
     }
 
-    /* 강조 텍스트 */
     .markdown-section strong {
       color: #ffffff;
     }
 
-    /* 좌측 상단 로고 텍스트 */
     .app-name {
       font-size: 20px !important;
       font-weight: 800 !important;
@@ -41,7 +36,6 @@
       letter-spacing: 0.5px;
     }
 
-    /* 사이드바 스타일 */
     .sidebar {
       background-color: #111 !important;
     }
@@ -64,21 +58,10 @@
       name: 'VOICECURE WORKFLOW',
       loadSidebar: true,
       subMaxLevel: 2,
-      // 필요한 경우 다음 라인을 추가해 루트 위치를 명확히 지정
-      // basePath: './',
+      basePath: './'
     };
   </script>
 
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 </body>
 </html>
-
-<script>
-  window.$docsify = {
-    name: 'VOICECURE WORKFLOW',
-    loadSidebar: true,
-    subMaxLevel: 2,
-    basePath: './'   // ✅ 이 줄을 꼭 추가!
-  }
-</script>
-
