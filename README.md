@@ -1,6 +1,6 @@
 <div class="workflow-title">
   <img src="COLOR2.png" alt="보이스큐어 로고" />
-#  <span>보이스큐어 워크플로우 안내</span>
+  <span>보이스큐어 워크플로우 안내</span>
 </div>
 
 보이스큐어의 보컬 트레이닝 시스템은
