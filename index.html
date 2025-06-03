@@ -16,11 +16,12 @@
       color: #f0f0f0;
     }
 
- .markdown-section h1, .markdown-section h2,
-.markdown-section h3, .markdown-section h4 {
-  color: #f4c66c !important; /* 기존 #4FC1FF 대신 로고 계열로 */
-}
-
+    /* 제목 색상 – 로고 색상과 맞춤 */
+    .markdown-section h1, 
+    .markdown-section h2,
+    .markdown-section h3, 
+    .markdown-section h4 {
+      color: #f4c66c !important;  /* 로고에 맞춘 따뜻한 노란 계열 */
     }
 
     .markdown-section strong {
@@ -61,13 +62,12 @@
       font-weight: bold;
     }
 
-    /* ✅ 사이드바 접힌 토글 섹션 텍스트 밝게 */
     .sidebar .app-sub-sidebar li {
       color: #ccc !important;
     }
 
     .sidebar li > p {
-      color: #ccc !important;
+      color: #f4c66c !important;
       font-weight: 600;
     }
   </style>
@@ -80,7 +80,7 @@
       name: 'VOICECURE WORKFLOW',
       loadSidebar: true,
       subMaxLevel: 2,
-      basePath: '',
+      basePath: ''
     };
   </script>
 
