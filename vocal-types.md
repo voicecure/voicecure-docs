@@ -69,7 +69,7 @@
 
 ## Type III: 외후두근 의존형 (Extrinsic Muscle-Dependent Type)
 
-<img src="T2_Intrinsic Muscle-Dependent.png" alt="Type II 내후두근 의존형 이미지" width="480" style="margin-bottom: 24px;" />
+<img src="T3_Extrinsic Muscle-Dependent" alt="Type III 외후두근 의존형 이미지" width="480" style="margin-bottom: 24px;" />
 
 외후두근 의존형 발성은 음정을 올릴 때, 성대 자체(내후두근을 포함한 성대)의 조절보다는 
 **“외후두근(후두를 끌어 올리는 외부 근육)”** 을 과도하게 사용하는 발성 패턴입니다. 
