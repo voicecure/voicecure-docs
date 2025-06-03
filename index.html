@@ -42,16 +42,14 @@
     }
 
     /* ✅ h2~h4 스타일 */
-/* h2 제목 및 자동 링크(anchor) 강제 색상 적용 */
-.markdown-section h2,
-.markdown-section h2 a,
-.markdown-section h2 a:visited,
-.markdown-section h2 a:hover,
-.markdown-section h2 a:active {
-  color: #f4c66c !important;
-  text-decoration: none !important;
-}
-
+    .markdown-section h2,
+    .markdown-section h2 a,
+    .markdown-section h2 a:visited,
+    .markdown-section h2 a:hover,
+    .markdown-section h2 a:active {
+      color: #f4c66c !important;
+      text-decoration: none !important;
+    }
 
     .markdown-section h3,
     .markdown-section h3 a,
@@ -107,6 +105,24 @@
     .sidebar li > p {
       color: #f4c66c !important;
       font-weight: 600;
+    }
+
+    /* ✅ 워크플로우 안내 제목에 로고와 글자 함께 정렬 */
+    .markdown-section .workflow-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 1.5rem;
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #ffffff;
+      border-left: 5px solid #f4c66c;
+      padding-left: 12px;
+    }
+
+    .markdown-section .workflow-title img {
+      height: 1.4em;
+      display: inline-block;
     }
   </style>
 </head>
