@@ -16,17 +16,17 @@
       color: #f0f0f0;
     }
 
-    /* 로고 색상 적용 */
+    /* ✅ 제목 색상: 로고 색상과 통일 */
     .markdown-section h1,
-    .markdown-section h2,
     .markdown-section h1 a,
+    .markdown-section h2,
     .markdown-section h2 a {
       color: #f4c66c !important;
     }
 
     .markdown-section h3,
-    .markdown-section h4,
     .markdown-section h3 a,
+    .markdown-section h4,
     .markdown-section h4 a {
       color: #4FC1FF !important;
     }
@@ -35,6 +35,7 @@
       color: #ffffff;
     }
 
+    /* 좌측 상단 앱명 및 로고 */
     .app-name {
       font-size: 20px !important;
       font-weight: 800 !important;
@@ -47,7 +48,7 @@
     .app-name::before {
       content: '';
       display: block;
-      background-image: url('COLOR2.png');
+      background-image: url('COLOR2.png'); /* 로컬 이미지 파일 */
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
@@ -56,6 +57,7 @@
       margin: 0 auto 8px auto;
     }
 
+    /* 사이드바 설정 */
     .sidebar {
       background-color: #111 !important;
     }
