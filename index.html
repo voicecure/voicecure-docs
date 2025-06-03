@@ -26,7 +26,7 @@
       color: #4FC1FF !important;
     }
 
-    /* 강조 텍스트 (굵게 표시한 부분) */
+    /* 강조 텍스트 */
     .markdown-section strong {
       color: #ffffff;
     }
@@ -34,7 +34,7 @@
     /* 좌측 상단 로고 텍스트 */
     .app-name {
       font-size: 20px !important;
-      font-weight: 800 !important; /* 더 굵게 */
+      font-weight: 800 !important;
       color: #ffffff !important;
       padding: 16px !important;
       display: block !important;
@@ -63,8 +63,10 @@
     window.$docsify = {
       name: 'VOICECURE WORKFLOW',
       loadSidebar: true,
-      subMaxLevel: 2
-    }
+      subMaxLevel: 2,
+      // 필요한 경우 다음 라인을 추가해 루트 위치를 명확히 지정
+      // basePath: './',
+    };
   </script>
 
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
