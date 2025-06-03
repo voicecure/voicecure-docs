@@ -57,7 +57,7 @@
 
 ---
 
-## <span style="color:#f4c66c">Step 2. 강한 성대 저항 훈련 – with 'uh'</span>
+## <span style="color:#f4c66c">Step 2. 입술의 저항을 활용한 연습법 with 'Beoup'</span>
 
 ‘uh’ 발음을 통해 성대가 닫히는 감각을 익혔다면,  
 이번에는 그 감각을 더 편안하고 안정된 방식으로 이어가 볼 차례입니다.  
