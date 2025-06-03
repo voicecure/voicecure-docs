@@ -51,15 +51,14 @@
 <body>
   <div id="app">문서를 불러오는 중입니다...</div>
 
-  <script>
-    window.$docsify = {
-      name: 'VOICECURE WORKFLOW',
-      loadSidebar: true,
-      subMaxLevel: 2,
-      loadNavbar: false,
-      basePath: '',
-    };
-  </script>
+ <script>
+  window.$docsify = {
+    name: 'VOICECURE WORKFLOW',
+    loadSidebar: true,   // ✅ 자동으로 sidebar.md 로드
+    subMaxLevel: 2,
+    basePath: '',
+  };
+</script>
 
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 </body>
