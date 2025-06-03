@@ -1,0 +1,26 @@
+- 📄 [홈으로](README.md)
+
+- 📘 보컬 타입 안내
+  - [Type 1. 호흡 의존형](type1.md)
+
+- 🛠 Type 1. 호흡 의존형 훈련 워크플로우
+  - [Step 1. 호흡 조절 연습](type1-step1.md)
+  - [Step 2. 성대 내전 연습](type1-step2.md)
+    - [강한 저항 연습 with 'uh'](type1-step2-uh.md)
+    - [입술의 저항을 활용한 연습법 with 'beoup'](type1-step2-beoup.md)
+    - [스트레칭과 저항 감각 연습법 with 'goog'](type1-step2-goog.md)
+    - [휘슬 보이스 연습 with 'wuh'](type1-step2-wuh.md)
+    - [얇은 성대 조절 with 'a'](type1-step2-a.md)
+  - [Step 3. 성도 조절 연습](type1-step3.md)
+    - [얇은 소리 연습법 with 'mam'](type1-step3-mam.md)
+    - [얇은 소리 연습법 with 'miya'](type1-step3-miya.md)
+    - [밝은 소리 연습법 with 'bbap'](type1-step3-bbap.md)
+    - [엣지 연습법 with 'gyaek'](type1-step3-gyaek.md)
+    - [고음 연습법 with 'wi'](type1-step3-wi.md)
+    - [듀얼 톤 조화 with 'eow'](type1-step3-eow.md)
+  - [Step 4. 뉴트럴 밸런스](type1-step4.md)
+    - [간단한 대체 발성 with 'hum'](type1-step4-hum.md)
+    - [Neutral Exercise with 'mum'](type1-step4-mum.md)
+    - [허밍으로 유연하게 with 'ung'](type1-step4-ung1.md)
+    - [삼킴 근육 이완 허밍 with 'ung'](type1-step4-ung2.md)
+    - [밝음과 어두움의 조화 with 'uh'](type1-step4-uh.md)
