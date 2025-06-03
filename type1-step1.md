@@ -87,7 +87,7 @@
 
 ---
 
-## <span style="color:#f4c66c">성대 스트레칭과 저항 감각 연습법 with 'goog'</span>
+## <span style="color:#f4c66c">Step 2. 성대 스트레칭과 저항 감각 연습법 with 'goog'</span>
 
 ‘uh’와 ‘beoup’ 발음은 성대 내전 감각을 익히는 데 효과적인 연습이지만,  
 중음이나 고음으로 음이 올라갈수록 성대 내전이 과해지면서  
