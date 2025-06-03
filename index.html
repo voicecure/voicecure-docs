@@ -16,10 +16,8 @@
       color: #f0f0f0;
     }
 
-    .markdown-section h1,
-    .markdown-section h2,
-    .markdown-section h3,
-    .markdown-section h4 {
+    .markdown-section h1, .markdown-section h2,
+    .markdown-section h3, .markdown-section h4 {
       color: #4FC1FF !important;
     }
 
@@ -33,7 +31,19 @@
       color: #ffffff !important;
       padding: 16px !important;
       display: block !important;
-      letter-spacing: 0.5px;
+      text-align: center;
+    }
+
+    .app-name::before {
+      content: '';
+      display: block;
+      background-image: url('COLOR2.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 8px auto;
     }
 
     .sidebar {
@@ -58,7 +68,7 @@
       name: 'VOICECURE WORKFLOW',
       loadSidebar: true,
       subMaxLevel: 2,
-      // _sidebar.md를 사용하므로 basePath는 따로 지정할 필요 없음
+      basePath: '',
     };
   </script>
 
