@@ -46,7 +46,7 @@
 
 ## Type II: 내후두근 의존형 (Intrinsic Muscle-Dependent Type)
 
-<img src="T2_Intrinsic Muscle-Dependent.png" alt="Type I 호흡 의존형 이미지" width="480" style="margin-bottom: 24px;" />
+<img src="T2_Intrinsic Muscle-Dependent.png" alt="Type II 내후두근 의존형 이미지" width="480" style="margin-bottom: 24px;" />
 
 내후두근 의존형 발성은 호흡을 통해 생성된 에너지가 **1차 밸브(내후두근을 포함한 성대)** 에서 
 과도하게 저항하고 억제되는 형태의 발성 패턴입니다.
