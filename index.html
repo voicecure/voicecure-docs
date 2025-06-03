@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VOICECURE WORKFLOW</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+
+  <style>
+    /* 전체 배경 및 기본 텍스트 */
+    body {
+      background-color: #1e1e1e;
+      color: #f0f0f0;
+    }
+
+    /* Markdown 본문 텍스트 */
+    .markdown-section {
+      color: #f0f0f0;
+    }
+
+    /* 제목: 선명한 하늘색 */
+    .markdown-section h1,
+    .markdown-section h2,
+    .markdown-section h3,
+    .markdown-section h4 {
+      color: #4FC1FF !important;
+    }
+
+    /* 강조 텍스트 (굵게 표시한 부분) */
+    .markdown-section strong {
+      color: #ffffff;
+    }
+
+    /* 좌측 상단 로고 텍스트 */
+    .app-name {
+      font-size: 20px !important;
+      font-weight: 800 !important; /* 더 굵게 */
+      color: #ffffff !important;
+      padding: 16px !important;
+      display: block !important;
+      letter-spacing: 0.5px;
+    }
+
+    /* 사이드바 스타일 */
+    .sidebar {
+      background-color: #111 !important;
+    }
+
+    .sidebar ul li a {
+      color: #ccc !important;
+    }
+
+    .sidebar ul li.active > a {
+      color: #ffffff !important;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">문서를 불러오는 중입니다...</div>
+
+  <script>
+    window.$docsify = {
+      name: 'VOICECURE WORKFLOW',
+      loadSidebar: true,
+      subMaxLevel: 2
+    }
+  </script>
+
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+</body>
+</html>
