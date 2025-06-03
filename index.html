@@ -16,8 +16,10 @@
       color: #f0f0f0;
     }
 
-    .markdown-section h1, .markdown-section h2,
-    .markdown-section h3, .markdown-section h4 {
+    .markdown-section h1,
+    .markdown-section h2,
+    .markdown-section h3,
+    .markdown-section h4 {
       color: #4FC1FF !important;
     }
 
@@ -58,6 +60,16 @@
       color: #ffffff !important;
       font-weight: bold;
     }
+
+    /* ✅ 사이드바 접힌 토글 섹션 텍스트 밝게 */
+    .sidebar .app-sub-sidebar li {
+      color: #ccc !important;
+    }
+
+    .sidebar li > p {
+      color: #ccc !important;
+      font-weight: 600;
+    }
   </style>
 </head>
 <body>
@@ -75,17 +87,3 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 </body>
 </html>
-
-<style>
-  /* 기존 코드 생략... */
-
-  /* 사이드바 접힌 토글 섹션 텍스트 밝게 */
-  .sidebar .app-sub-sidebar li {
-    color: #ccc !important;
-  }
-
-  .sidebar li > p {
-    color: #ccc !important;
-    font-weight: 600;
-  }
-</style>
