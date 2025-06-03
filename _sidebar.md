@@ -8,4 +8,5 @@
   - [Type V: 균형형 (Balanced Type)](vocal-types.md#type-v-균형형-balanced-type)
 
 - ⚙ Type 1. 호흡 의존형 훈련 워크플로우
-  - [Step 1. 호흡 조절 연습](type1-step1.md)
+  - [Step 1. 호흡 조절 연습](type1-step1.md#step-1-호흡-조절-연습)
+  - [Step 2. 강한 성대 저항 훈련 – with 'uh'](type1-step1.md#step-2-강한-성대-저항-훈련--with-uh)
