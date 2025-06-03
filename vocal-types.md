@@ -1,5 +1,5 @@
 
-## Type I: 호흡 의존형 (Breath-Dependent Type)
+## <h2 style="color: #f4c66c;">Type I: 호흡 의존형 (Breath-Dependent Type)</h2>
 
 <img src="T1_breath_dependent.png" alt="Type I 호흡 의존형 이미지" width="480" style="margin-bottom: 24px;" />
 
