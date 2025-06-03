@@ -16,8 +16,10 @@
       color: #f0f0f0;
     }
 
-    .markdown-section h1, .markdown-section h2,
-    .markdown-section h3, .markdown-section h4 {
+    .markdown-section h1,
+    .markdown-section h2,
+    .markdown-section h3,
+    .markdown-section h4 {
       color: #4FC1FF !important;
     }
 
@@ -51,14 +53,14 @@
 <body>
   <div id="app">문서를 불러오는 중입니다...</div>
 
- <script>
-  window.$docsify = {
-    name: 'VOICECURE WORKFLOW',
-    loadSidebar: true,   // ✅ 자동으로 sidebar.md 로드
-    subMaxLevel: 2,
-    basePath: '',
-  };
-</script>
+  <script>
+    window.$docsify = {
+      name: 'VOICECURE WORKFLOW',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      // _sidebar.md를 사용하므로 basePath는 따로 지정할 필요 없음
+    };
+  </script>
 
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 </body>
