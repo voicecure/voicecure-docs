@@ -85,6 +85,25 @@
       white-space: normal !important;
     }
 
+<style>
+  /* 기존 sidebar 설정 아래에 함께 추가하세요 */
+  .sidebar {
+    background-color: #111 !important;
+    width: 280px !important;
+    overflow-x: auto;
+  }
+
+  .app-sub-sidebar li a {
+    white-space: normal !important;
+    word-break: keep-all;
+    line-height: 1.6;
+  }
+
+  .sidebar ul li a {
+    overflow-wrap: anywhere;
+  }
+</style>
+    
     .markdown-section .workflow-title {
       display: flex;
       align-items: center;
