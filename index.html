@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>VOICECURE WORKFLOW</title>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css" />
-
   <style>
     body {
       background-color: #1e1e1e;
@@ -16,7 +15,6 @@
       color: #f0f0f0;
     }
 
-    /* ✅ h1 제목 스타일 - 로고 색상 강조 + 글씨 흰색 */
     .markdown-section h1 {
       color: #ffffff !important;
       font-size: 1.5em !important;
@@ -28,33 +26,9 @@
       word-break: keep-all;
     }
 
-    .markdown-section h1 a {
-      color: #f4c66c !important;
-      text-decoration: none;
-      border: none !important;
-    }
-
-    .markdown-section h1 strong,
-    .markdown-section h1 em,
-    .markdown-section h1 span {
-      color: #ffffff !important;
-      font-weight: bold;
-    }
-
-    /* ✅ h2~h4 스타일 */
     .markdown-section h2,
-    .markdown-section h2 a,
-    .markdown-section h2 a:visited,
-    .markdown-section h2 a:hover,
-    .markdown-section h2 a:active {
-      color: #f4c66c !important;
-      text-decoration: none !important;
-    }
-
     .markdown-section h3,
-    .markdown-section h3 a,
-    .markdown-section h4,
-    .markdown-section h4 a {
+    .markdown-section h4 {
       color: #4FC1FF !important;
     }
 
@@ -62,20 +36,19 @@
       color: #ffffff;
     }
 
-    /* 좌측 상단 앱명 및 로고 */
+    /* ✅ 사이드바 상단 앱명 + 로고 */
     .app-name {
       font-size: 20px !important;
       font-weight: 800 !important;
       color: #ffffff !important;
       padding: 16px !important;
-      display: block !important;
       text-align: center;
     }
 
     .app-name::before {
       content: '';
       display: block;
-      background-image: url('COLOR2.png');
+      background-image: url('COLOR2.png'); /* ← 로고 이미지 경로 */
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
@@ -84,7 +57,6 @@
       margin: 0 auto 8px auto;
     }
 
-    /* 사이드바 설정 */
     .sidebar {
       background-color: #111 !important;
       width: 280px !important;
@@ -109,7 +81,10 @@
       font-weight: 600;
     }
 
-    /* ✅ 워크플로우 안내 제목에 로고와 글자 함께 정렬 */
+    .app-sub-sidebar li a {
+      white-space: normal !important;
+    }
+
     .markdown-section .workflow-title {
       display: flex;
       align-items: center;
@@ -130,13 +105,18 @@
 </head>
 
 <body>
+  <!-- ✅ 사이드바 상단 로고 + 이름 -->
+  <nav>
+    <div class="app-name">VOICECURE WORKFLOW</div>
+  </nav>
+
   <div id="app">문서를 불러오는 중입니다...</div>
 
   <script>
     window.$docsify = {
       name: 'VOICECURE WORKFLOW',
       loadSidebar: true,
-      subMaxLevel: 1,
+      subMaxLevel: 2,
       basePath: ''
     };
   </script>
