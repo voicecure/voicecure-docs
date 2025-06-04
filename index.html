@@ -139,11 +139,6 @@
 </head>
 
 <body>
-  <!-- ✅ 사이드바 상단 앱 로고/이름 -->
-  <nav>
-    <div class="sidebar-app-name">VOICECURE WORKFLOW</div>
-  </nav>
-
   <div id="app">문서를 불러오는 중입니다...</div>
 
   <script>
@@ -156,5 +151,20 @@
   </script>
 
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+  <script>
+    // 사이드바 로고 자동 삽입
+    window.addEventListener('DOMContentLoaded', () => {
+      const sidebarInterval = setInterval(() => {
+        const sidebar = document.querySelector('.sidebar');
+        if (sidebar && !document.querySelector('.sidebar-app-name')) {
+          const logo = document.createElement('div');
+          logo.className = 'sidebar-app-name';
+          logo.innerText = 'VOICECURE WORKFLOW';
+          sidebar.insertBefore(logo, sidebar.firstChild);
+          clearInterval(sidebarInterval);
+        }
+      }, 100);
+    });
+  </script>
 </body>
-</html>
