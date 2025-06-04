@@ -12,3 +12,4 @@
   - [Step 2. 강한 성대 저항 훈련 – with 'uh'](type1-step1.md#step-2-강한-성대-저항-훈련-with-39uh39)
   - [Step 2. 입술의 저항을 활용한 연습법 with 'Beoup'](type1-step1.md#step-2-입술의-저항을-활용한-연습법-with-39beoup39)
   - [Step 2. 성대 스트레칭과 저항 감각 연습법 with 'goog'](type1-step1.md#step-2-성대-스트레칭과-저항-감각-연습법-with-39goog39)
+  - [Step 2. 얇은 성대 조절 – with 'a'](type1-step1.md#step-2-얇은-성대-조절-with-39a39)
