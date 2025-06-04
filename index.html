@@ -13,7 +13,6 @@
 
     .markdown-section {
       color: #f0f0f0;
-      padding: 40px !important;
     }
 
     .markdown-section h1 {
@@ -37,6 +36,27 @@
       color: #ffffff;
     }
 
+    /* 사이드바 상단 앱명 + 로고 */
+    .app-name {
+      font-size: 20px !important;
+      font-weight: 800 !important;
+      color: #ffffff !important;
+      padding: 16px !important;
+      text-align: center;
+    }
+
+    .app-name::before {
+      content: '';
+      display: block;
+      background-image: url('COLOR2.png'); /* ← 로고 이미지 경로 */
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 8px auto;
+    }
+
     /* 사이드바 설정 */
     .sidebar {
       background-color: #111 !important;
@@ -47,7 +67,6 @@
     .sidebar ul li a {
       color: #ddd !important;
       overflow-wrap: anywhere;
-      font-size: 14px !important;
     }
 
     .sidebar ul li.active > a {
@@ -74,30 +93,6 @@
       font-weight: 600;
     }
 
-    /* 사이드바 상단 로고 + 앱명 */
-    .app-name {
-      font-size: 18px !important;
-      font-weight: 700 !important;
-      color: #ffffff !important;
-      padding: 12px 8px !important;
-      background-color: #111 !important;
-      text-align: center;
-      border-bottom: 1px solid #333;
-    }
-
-    .app-name::before {
-      content: '';
-      display: block;
-      background-image: url('COLOR2.png'); /* ← 로고 이미지 경로 */
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-      width: 60px;
-      height: 60px;
-      margin: 0 auto 8px auto;
-    }
-
-    /* 워크플로우용 커스텀 제목 */
     .markdown-section .workflow-title {
       display: flex;
       align-items: center;
@@ -115,27 +110,28 @@
       display: inline-block;
     }
 
-    /* ✅ 모바일 최적화 */
-    @media (max-width: 768px) {
-      .app-name {
-        font-size: 16px !important;
-        padding: 8px !important;
-      }
+    /* 모바일 최적화 */
+@media (max-width: 768px) {
+  .app-name {
+    font-size: 16px !important;
+    padding: 8px !important;
+  }
 
-      .app-name::before {
-        width: 50px;
-        height: 50px;
-        margin-bottom: 4px;
-      }
+  .app-name::before {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 4px;
+  }
 
-      .sidebar {
-        width: 240px !important;
-      }
+  .sidebar {
+    width: 240px !important;
+  }
 
-      .markdown-section {
-        padding: 16px 20px !important;  /* 좌우 여백 줄임 */
-      }
-    }
+  .markdown-section {
+    padding: 20px !important;
+  }
+}
+
   </style>
 </head>
 
