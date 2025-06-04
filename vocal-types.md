@@ -8,11 +8,11 @@
   
 발성을 위해서는 폐에서 올라오는 "호흡(에너지원)"을  
 1차 밸브인 **성대**가 적절한 **내전(adduction)** 과 **스트레칭**을 통해 정교하게 진동시키고,  
-2차 밸브인 **성도**에서 **압력과 공명**을 조절하며 균형을 이루어야 합니다.
-
+2차 밸브인 **성도**에서 **압력과 공명**을 조절하며 균형을 이루어야 합니다.  
+  
 그러나 호흡 의존형의 경우  
 성대가 충분히 닫히지 않고 적절히 늘어나지 못하여,  
-성대가 제 기능을 하지 못하는 만큼 폐에서 나오는 공기 압력으로 보상하려 합니다.
+성대가 제 기능을 하지 못하는 만큼 폐에서 나오는 공기 압력으로 보상하려 합니다.  
 
 이로 인해 **호흡 압력이 과도하게 상승**하면서  
 발성은 전체적으로 **날카롭고 거칠어지며**,  
@@ -36,12 +36,12 @@
 과도한 호흡 압력으로 인해  
 성도의 공명 조절이 적절히 이루어지지 않으며,  
 음색의 균형과 발성 효율이 떨어집니다.
-
+  
 ---
+  
+## <h2 style="color: #f4c66c;">Type II: 내후두근 의존형 (Intrinsic Muscle-Dependent Type)</h2>  
 
-## <h2 style="color: #f4c66c;">Type II: 내후두근 의존형 (Intrinsic Muscle-Dependent Type)</h2>
-
-<img src="T2_Intrinsic Muscle-Dependent.png" alt="Type II 내후두근 의존형 이미지" width="480" style="margin-bottom: 24px;" />
+<img src="T2_Intrinsic Muscle-Dependent.png" alt="Type II 내후두근 의존형 이미지" width="480" style="margin-bottom: 24px;" />  
 
 내후두근 의존형 발성은 호흡을 통해 생성된 에너지가 **1차 밸브(내후두근을 포함한 성대)** 에서  
 과도하게 저항하고 억제되는 형태의 발성 패턴입니다.  
@@ -62,9 +62,9 @@
   
 ---
   
-## <h2 style="color: #f4c66c;">Type III: 외후두근 의존형 (Extrinsic Muscle-Dependent Type)</h2>
+## <h2 style="color: #f4c66c;">Type III: 외후두근 의존형 (Extrinsic Muscle-Dependent Type)</h2>  
   
-<img src="T3_Extrinsic Muscle-Dependent.png" alt="Type III 외후두근 의존형 이미지" width="480" style="margin-bottom: 24px;" />  
+<img src="T3_Extrinsic Muscle-Dependent.png" alt="Type III 외후두근 의존형 이미지" width="480" style="margin-bottom: 24px;" />    
   
 외후두근 의존형 발성은 음정을 올릴 때, 성대 자체(내후두근을 포함한 성대)의 조절보다는   
 **“외후두근(후두를 끌어 올리는 외부 근육)”** 을 과도하게 사용하는 발성 패턴입니다.   
@@ -115,10 +115,10 @@ Type I(호흡 의존형)에서 나타나는 강하게 밀어내고 소리치는 
 
 ---
 
-## <h2 style="color: #f4c66c;">Type IV: 과소 기능형 (Hypofunctional Type)</h2>
-  
-<img src="T4_Hypofunctional.png" alt="Type IV 과소기능형 이미지" width="480" style="margin-bottom: 24px;" />
-  
+## <h2 style="color: #f4c66c;">Type IV: 과소 기능형 (Hypofunctional Type)</h2>  
+    
+<img src="T4_Hypofunctional.png" alt="Type IV 과소기능형 이미지" width="480" style="margin-bottom: 24px;" />  
+    
 과소 기능형 발성은 **성대 내전(1차 밸브)과 호흡(에너지원),  
 그리고 성도(2차 밸브)의 기능이 전반적으로 약화된 상태**를 의미합니다.  
 이 상태에서는 “내후두근을 포함한 성대(1차 밸브)”의 닫힘(adduction)이 약하거나 불완전하여  
