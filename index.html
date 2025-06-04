@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>VOICECURE WORKFLOW</title>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css" />
-
   <style>
     body {
       background-color: #1e1e1e;
@@ -16,7 +15,6 @@
       color: #f0f0f0;
     }
 
-    /* ✅ h1 제목 스타일 - 로고 색상 강조 + 글씨 흰색 */
     .markdown-section h1 {
       color: #ffffff !important;
       font-size: 1.5em !important;
@@ -26,12 +24,6 @@
       margin-bottom: 1rem;
       line-height: 1.4;
       word-break: keep-all;
-    }
-
-    .markdown-section h1 a {
-      color: #f4c66c !important;
-      text-decoration: none;
-      border: none !important;
     }
 
     .markdown-section h2,
@@ -56,7 +48,7 @@
     .app-name::before {
       content: '';
       display: block;
-      background-image: url('COLOR2.png'); /* 필요 시 로고 경로 수정 */
+      background-image: url('COLOR2.png'); /* 로고 이미지 경로 (필요 시 수정) */
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
@@ -95,4 +87,35 @@
 
     .markdown-section .workflow-title {
       display: flex;
-      align-items: cent
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 1.5rem;
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #ffffff;
+      border-left: 5px solid #f4c66c;
+      padding-left: 12px;
+    }
+
+    .markdown-section .workflow-title img {
+      height: 1.4em;
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">문서를 불러오는 중입니다...</div>
+
+  <script>
+    window.$docsify = {
+      name: 'VOICECURE WORKFLOW',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      basePath: ''
+    };
+  </script>
+
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+</body>
+</html>
