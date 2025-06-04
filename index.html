@@ -1,125 +1,98 @@
-<style>
-  body {
-    background-color: #1e1e1e;
-    color: #f0f0f0;
-  }
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VOICECURE WORKFLOW</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css" />
 
-  .markdown-section {
-    color: #f0f0f0;
-  }
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: #f0f0f0;
+    }
 
-  /* ✅ h1 제목 스타일 - 로고 색상 강조 + 글씨 흰색 */
-  .markdown-section h1 {
-    color: #ffffff !important;
-    font-size: 1.5em !important;
-    font-weight: bold !important;
-    border-left: 5px solid #f4c66c;
-    padding-left: 8px;
-    margin-bottom: 1rem;
-    line-height: 1.4;
-    word-break: keep-all;
-  }
+    .markdown-section {
+      color: #f0f0f0;
+    }
 
-  .markdown-section h1 a {
-    color: #f4c66c !important;
-    text-decoration: none;
-    border: none !important;
-  }
+    /* ✅ h1 제목 스타일 - 로고 색상 강조 + 글씨 흰색 */
+    .markdown-section h1 {
+      color: #ffffff !important;
+      font-size: 1.5em !important;
+      font-weight: bold !important;
+      border-left: 5px solid #f4c66c;
+      padding-left: 8px;
+      margin-bottom: 1rem;
+      line-height: 1.4;
+      word-break: keep-all;
+    }
 
-  .markdown-section h1 strong,
-  .markdown-section h1 em,
-  .markdown-section h1 span {
-    color: #ffffff !important;
-    font-weight: bold;
-  }
+    .markdown-section h1 a {
+      color: #f4c66c !important;
+      text-decoration: none;
+      border: none !important;
+    }
 
-  /* ✅ h2~h4 스타일 */
-  .markdown-section h2,
-  .markdown-section h2 a,
-  .markdown-section h2 a:visited,
-  .markdown-section h2 a:hover,
-  .markdown-section h2 a:active {
-    color: #f4c66c !important;
-    text-decoration: none !important;
-  }
+    .markdown-section h2,
+    .markdown-section h3,
+    .markdown-section h4 {
+      color: #4FC1FF !important;
+    }
 
-  .markdown-section h3,
-  .markdown-section h3 a,
-  .markdown-section h4,
-  .markdown-section h4 a {
-    color: #4FC1FF !important;
-  }
+    .markdown-section strong {
+      color: #ffffff;
+    }
 
-  .markdown-section strong {
-    color: #ffffff;
-  }
+    .app-name {
+      font-size: 20px !important;
+      font-weight: 800 !important;
+      color: #ffffff !important;
+      padding: 16px !important;
+      display: block !important;
+      text-align: center;
+    }
 
-  /* 좌측 상단 앱명 및 로고 */
-  .app-name {
-    font-size: 20px !important;
-    font-weight: 800 !important;
-    color: #ffffff !important;
-    padding: 16px !important;
-    display: block !important;
-    text-align: center;
-  }
+    .app-name::before {
+      content: '';
+      display: block;
+      background-image: url('COLOR2.png'); /* 필요 시 로고 경로 수정 */
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 8px auto;
+    }
 
-  .app-name::before {
-    content: '';
-    display: block;
-    background-image: url('COLOR2.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 80px;
-    height: 80px;
-    margin: 0 auto 8px auto;
-  }
+    .sidebar {
+      background-color: #111 !important;
+      width: 280px !important;
+      overflow-x: auto;
+    }
 
-  /* ✅ 사이드바 설정 */
-  .sidebar {
-    background-color: #111 !important;
-    width: 280px !important;
-    overflow-x: auto;
-  }
+    .sidebar ul li a {
+      color: #ddd !important;
+    }
 
-  .sidebar ul li a {
-    color: #ddd !important;
-  }
+    .sidebar ul li.active > a {
+      color: #ffffff !important;
+      font-weight: bold;
+    }
 
-  .sidebar ul li.active > a {
-    color: #ffffff !important;
-    font-weight: bold;
-  }
+    .sidebar .app-sub-sidebar li {
+      color: #ccc !important;
+    }
 
-  .sidebar .app-sub-sidebar li {
-    color: #ccc !important;
-  }
+    .sidebar li > p {
+      color: #f4c66c !important;
+      font-weight: 600;
+    }
 
-  .sidebar li > p {
-    color: #f4c66c !important;
-    font-weight: 600;
-  }
+    .app-sub-sidebar li a {
+      white-space: normal !important;
+    }
 
-  .app-sub-sidebar li a {
-    white-space: normal !important;
-  }
-
-  /* ✅ 워크플로우 안내 제목에 로고와 글자 함께 정렬 */
-  .markdown-section .workflow-title {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 1.5rem;
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #ffffff;
-    border-left: 5px solid #f4c66c;
-    padding-left: 12px;
-  }
-
-  .markdown-section .workflow-title img {
-    height: 1.4em;
-    display: inline-block;
-  }
-</style>
+    .markdown-section .workflow-title {
+      display: flex;
+      align-items: cent
