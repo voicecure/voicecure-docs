@@ -13,11 +13,11 @@
 
     .markdown-section {
       color: #f0f0f0;
-      padding: 40px !important; /* 데스크탑 기본 패딩 */
+      padding: 40px !important;
     }
 
     .markdown-section h1 {
-      color: #f4c66c !important;
+      color: #ffffff !important;
       font-size: 1.5em !important;
       font-weight: bold !important;
       border-left: 5px solid #f4c66c;
@@ -26,8 +26,7 @@
       line-height: 1.4;
       word-break: keep-all;
     }
-    .markdown-section h1 a {
-    color: #f4c66c !important;
+
     .markdown-section h2,
     .markdown-section h3,
     .markdown-section h4 {
@@ -36,27 +35,6 @@
 
     .markdown-section strong {
       color: #ffffff;
-    }
-
-    /* 사이드바 상단 앱명 + 로고 */
-    .app-name {
-      font-size: 20px !important;
-      font-weight: 800 !important;
-      color: #ffffff !important;
-      padding: 16px !important;
-      text-align: center;
-    }
-
-    .app-name::before {
-      content: '';
-      display: block;
-      background-image: url('COLOR2.png'); /* ← 로고 이미지 경로 */
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-      width: 80px;
-      height: 80px;
-      margin: 0 auto 8px auto;
     }
 
     /* 사이드바 설정 */
@@ -96,6 +74,30 @@
       font-weight: 600;
     }
 
+    /* 사이드바 상단 로고 + 앱명 */
+    .app-name {
+      font-size: 18px !important;
+      font-weight: 700 !important;
+      color: #ffffff !important;
+      padding: 12px 8px !important;
+      background-color: #111 !important;
+      text-align: center;
+      border-bottom: 1px solid #333;
+    }
+
+    .app-name::before {
+      content: '';
+      display: block;
+      background-image: url('COLOR2.png'); /* ← 로고 이미지 경로 */
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 60px;
+      height: 60px;
+      margin: 0 auto 8px auto;
+    }
+
+    /* 워크플로우용 커스텀 제목 */
     .markdown-section .workflow-title {
       display: flex;
       align-items: center;
@@ -113,7 +115,7 @@
       display: inline-block;
     }
 
-    /* 모바일 최적화 */
+    /* ✅ 모바일 최적화 */
     @media (max-width: 768px) {
       .app-name {
         font-size: 16px !important;
@@ -121,8 +123,8 @@
       }
 
       .app-name::before {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         margin-bottom: 4px;
       }
 
@@ -131,7 +133,7 @@
       }
 
       .markdown-section {
-        padding: 20px !important;
+        padding: 16px 20px !important;  /* 좌우 여백 줄임 */
       }
     }
   </style>
@@ -149,7 +151,7 @@
     window.$docsify = {
       name: 'VOICECURE WORKFLOW',
       loadSidebar: true,
-      subMaxLevel: 1, // ← 필요 시 0으로 조정 가능
+      subMaxLevel: 1,
       basePath: ''
     };
   </script>
