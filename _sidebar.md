@@ -15,4 +15,4 @@
   - [Step 2. 얇은 성대 조절 – with 'a'](type1-step1.md#step-2-얇은-성대-조절-with-39a39)
   - [Step 3. 고음을 위한 얇은 소리 연습법 – with 'mam'](type1-step1.md#step-3-고음을-위한-얇은-소리-연습법-with-39mam39)
   - [Step 3. 성대 스트레칭과 얇은 소리 연결 연습 with 'miya'](type1-step1.md#step-3-성대-스트레칭과-얇은-소리-연결-연습-with-39miya39)
-  - [Step 3. 무거운 습관을 벗어나기 위한 밝은 소리 연습법 – with 'bbap'](type1-step1.md#)
+  - [Step 3. 무거운 습관을 벗어나기 위한 밝은 소리 연습법 – with 'bbap'](type1-step1.md#step-3-무거운-습관을-벗어나기-위한-밝은-소리-연습법-with-39bbap39)
