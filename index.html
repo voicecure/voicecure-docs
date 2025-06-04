@@ -36,7 +36,7 @@
       color: #ffffff;
     }
 
-    /* ✅ 사이드바 상단 앱명 + 로고 */
+    /* 사이드바 상단 앱명 + 로고 */
     .app-name {
       font-size: 20px !important;
       font-weight: 800 !important;
@@ -57,6 +57,7 @@
       margin: 0 auto 8px auto;
     }
 
+    /* 사이드바 설정 */
     .sidebar {
       background-color: #111 !important;
       width: 280px !important;
@@ -65,6 +66,7 @@
 
     .sidebar ul li a {
       color: #ddd !important;
+      overflow-wrap: anywhere;
     }
 
     .sidebar ul li.active > a {
@@ -72,8 +74,18 @@
       font-weight: bold;
     }
 
+    .sidebar .app-sub-sidebar {
+      padding-left: 10px !important;
+    }
+
     .sidebar .app-sub-sidebar li {
-      color: #ccc !important;
+      margin-left: 10px !important;
+    }
+
+    .sidebar .app-sub-sidebar li a {
+      white-space: normal !important;
+      word-break: keep-all;
+      line-height: 1.6;
     }
 
     .sidebar li > p {
@@ -81,29 +93,6 @@
       font-weight: 600;
     }
 
-    .app-sub-sidebar li a {
-      white-space: normal !important;
-    }
-
-<style>
-  /* 기존 sidebar 설정 아래에 함께 추가하세요 */
-  .sidebar {
-    background-color: #111 !important;
-    width: 280px !important;
-    overflow-x: auto;
-  }
-
-  .app-sub-sidebar li a {
-    white-space: normal !important;
-    word-break: keep-all;
-    line-height: 1.6;
-  }
-
-  .sidebar ul li a {
-    overflow-wrap: anywhere;
-  }
-</style>
-    
     .markdown-section .workflow-title {
       display: flex;
       align-items: center;
@@ -124,7 +113,7 @@
 </head>
 
 <body>
-  <!-- ✅ 사이드바 상단 로고 + 이름 -->
+  <!-- 사이드바 상단 앱 로고/이름 -->
   <nav>
     <div class="app-name">VOICECURE WORKFLOW</div>
   </nav>
