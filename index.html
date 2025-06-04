@@ -109,6 +109,29 @@
       height: 1.4em;
       display: inline-block;
     }
+
+    /* 모바일 최적화 */
+@media (max-width: 768px) {
+  .app-name {
+    font-size: 16px !important;
+    padding: 8px !important;
+  }
+
+  .app-name::before {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 4px;
+  }
+
+  .sidebar {
+    width: 240px !important;
+  }
+
+  .markdown-section {
+    padding: 20px !important;
+  }
+}
+
   </style>
 </head>
 
