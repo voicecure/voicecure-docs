@@ -13,6 +13,7 @@
 
     .markdown-section {
       color: #f0f0f0;
+      padding: 40px !important; /* 데스크탑 기본 패딩 */
     }
 
     .markdown-section h1 {
@@ -67,6 +68,7 @@
     .sidebar ul li a {
       color: #ddd !important;
       overflow-wrap: anywhere;
+      font-size: 14px !important;
     }
 
     .sidebar ul li.active > a {
@@ -111,27 +113,26 @@
     }
 
     /* 모바일 최적화 */
-@media (max-width: 768px) {
-  .app-name {
-    font-size: 16px !important;
-    padding: 8px !important;
-  }
+    @media (max-width: 768px) {
+      .app-name {
+        font-size: 16px !important;
+        padding: 8px !important;
+      }
 
-  .app-name::before {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 4px;
-  }
+      .app-name::before {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 4px;
+      }
 
-  .sidebar {
-    width: 240px !important;
-  }
+      .sidebar {
+        width: 240px !important;
+      }
 
-  .markdown-section {
-    padding: 20px !important;
-  }
-}
-
+      .markdown-section {
+        padding: 20px !important;
+      }
+    }
   </style>
 </head>
 
@@ -147,7 +148,7 @@
     window.$docsify = {
       name: 'VOICECURE WORKFLOW',
       loadSidebar: true,
-      subMaxLevel: 1,
+      subMaxLevel: 1, // ← 필요 시 0으로 조정 가능
       basePath: ''
     };
   </script>
