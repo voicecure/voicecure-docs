@@ -302,7 +302,7 @@ Step 3에서는 밝은 음색과 성도 협응을 통해 고음을 효과적으�
 
 ---
 
-### <span style="color:#f4c66c">Step 3. 듀얼톤 엑서사이즈, 두 기술의 조화 – with 'eow'</span>  
+### <span style="color:#f4c66c">Mum 발음이 어려울 때 간단한 대체 발성 연습법 – with 'hum'</span>  
   
 Step 4의 목표는 무겁지도 가볍지도 않은, 중립적인 발성 밸런스를 만드는 것입니다.  
   
