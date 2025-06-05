@@ -69,19 +69,27 @@
     }
 
 
-/* Step 1, Step 2 항목을 포함하는 li 텍스트만 밝게 */
+/* ✅ Step 1, Step 2 항목: 링크가 없는 li에도 적용 */
 .sidebar .app-sub-sidebar > li {
-  color: #bbbbbb !important;
+  color: #cccccc !important;     /* 기존보다 밝은 회색 */
   font-weight: 500;
+  font-size: 14px;
 }
 
-/* 사이드바 섹션 제목 (예: Step 1. 성대 내전 연습) */
+/* ✅ Step 섹션 제목 <p> 태그로 된 경우 */
 .sidebar li > p {
-  color: #f4c66c !important;  /* 강조 색상 */
+  color: #f4c66c !important;     /* 강조 색상 */
   font-weight: 700;
   font-size: 14px;
   margin: 6px 0;
 }
+
+/* ✅ 링크 항목은 명확하게 흰색 */
+.sidebar .app-sub-sidebar > li > a {
+  color: #ffffff !important;
+  font-size: 14px;
+}
+
 
     /* ✅ 사이드바 전용 앱명 + 로고 */
     .sidebar-app-name {
