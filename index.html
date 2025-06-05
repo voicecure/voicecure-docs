@@ -41,66 +41,56 @@
       color: #ffffff;
     }
 
-    /* 사이드바 설정 */
-
-/* 사이드바 내부 회색 텍스트 (비활성 링크 스타일) */
-.sidebar .app-sub-sidebar li:not(.active) > a {
-  color: #cccccc !important;  /* 더 밝은 회색 */
-  font-weight: 500;
+/* ✅ 사이드바 전체 설정 */
+.sidebar {
+  background-color: #111 !important;
+  width: 360px !important;
+  overflow-x: auto;
 }
 
-/* 또는 전체적으로 밝은 색으로 처리하려면 */
-.sidebar .app-sub-sidebar li > a {
-  color: #dddddd !important;
+/* ✅ 사이드바 기본 링크 스타일 */
+.sidebar ul li a {
+  color: #cccccc !important;  /* 전체적으로 밝은 회색 */
+  overflow-wrap: anywhere;
+  font-size: 14px !important;
 }
-    
-    .sidebar {
-      background-color: #111 !important;
-      width: 360px !important;
-      overflow-x: auto;
-    }
 
-    .sidebar ul li a {
-      color: #bbbbbb !important; /* 이전보다 밝은 회색 */
-      overflow-wrap: anywhere;
-      font-size: 14px !important;
-    }
-
-/* 사이드바 활성화된 링크 */
+/* ✅ 활성화된 링크 (선택된 상태) */
 .sidebar ul li.active > a {
   color: #ffffff !important;
   font-weight: bold;
 }
 
-    .sidebar .app-sub-sidebar {
-      padding-left: 10px !important;
-    }
-
-    .sidebar .app-sub-sidebar li {
-      margin-left: 10px !important;
-    }
-
-
-/* ✅ Step 1, Step 2 항목: 링크가 없는 li에도 적용 */
-.sidebar .app-sub-sidebar > li {
-  color: #cccccc !important;     /* 기존보다 밝은 회색 */
-  font-weight: 500;
-  font-size: 14px;
+/* ✅ 하위 목록 여백 */
+.sidebar .app-sub-sidebar {
+  padding-left: 10px !important;
+}
+.sidebar .app-sub-sidebar li {
+  margin-left: 10px !important;
 }
 
-/* ✅ Step 섹션 제목 <p> 태그로 된 경우 */
+/* ✅ 링크가 있는 항목만 흰색으로 (우선순위 높임) */
+.sidebar .app-sub-sidebar > li > a {
+  color: #ffffff !important;
+  font-size: 14px !important;
+  font-weight: 500;
+}
+
+/* ✅ Step1, Step2 제목처럼 링크 없는 <li> 항목 밝게 */
+.sidebar .app-sub-sidebar > li:not(:has(a)) {
+  color: #cccccc !important;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* ✅ <p> 태그로 된 제목 스타일 */
 .sidebar li > p {
-  color: #f4c66c !important;     /* 강조 색상 */
+  color: #f4c66c !important;
   font-weight: 700;
   font-size: 14px;
   margin: 6px 0;
 }
 
-/* ✅ 링크 항목은 명확하게 흰색 */
-.sidebar .app-sub-sidebar > li > a {
-  color: #ffffff !important;
-  font-size: 14px;
-}
 
 
     /* ✅ 사이드바 전용 앱명 + 로고 */
