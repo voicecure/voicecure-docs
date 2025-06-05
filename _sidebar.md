@@ -19,3 +19,8 @@
     - [연습 1. with 'mam'](type1-step1.md#step-3-고음을-위한-얇은-소리-연습법-with-39mam39)
     - [연습 2. with 'miya'](type1-step1.md#step-3-성대-스트레칭과-얇은-소리-연결-연습-with-39miya39)
     - [연습 3. with 'bbap'](type1-step1.md#step-3-무거운-습관을-벗어나기-위한-밝은-소리-연습법-with-39bbap39)
+    - [연습 4. with 'gyaek'](type1-step1.md#step-3-편한-고음을-위한-엣지-연습법-with-39gyaek39)
+    - [연습 5. with 'wi'](type1-step1.md#step-3-vocal-fry와-가성을-연결한-고음-연습법-with-39wi39)
+    - [연습 6. with 'eow'](type1-step1.md#step-3-듀얼톤-엑서사이즈-두-기술의-조화-with-39eow39)
+  - [Step 4. 뉴트럴 밸런스]
+    - [연습 1. with 'mam'](type1-step1.md#step-3-고음을-위한-얇은-소리-연습법-with-39mam39)
