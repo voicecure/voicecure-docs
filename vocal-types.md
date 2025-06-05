@@ -1,5 +1,5 @@
 
-<h2 style="color: #f4c66c;">Type I: 호흡 의존형 (Breath-Dependent Type)</h2>
+# Type I: 호흡 의존형 (Breath-Dependent Type)
 
 <img src="T1_breath_dependent.png" alt="Type I 호흡 의존형 이미지" width="480" style="margin-bottom: 24px;" />
 
@@ -39,7 +39,7 @@
   
 ---
   
-<h2 style="color: #f4c66c;">Type II: 내후두근 의존형 (Intrinsic Muscle-Dependent Type)</h2>
+# Type II: 내후두근 의존형 (Intrinsic Muscle-Dependent Type)
 
 <img src="T2_Intrinsic Muscle-Dependent.png" alt="Type II 내후두근 의존형 이미지" width="480" style="margin-bottom: 24px;" />  
 
