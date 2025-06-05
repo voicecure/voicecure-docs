@@ -49,15 +49,16 @@
     }
 
     .sidebar ul li a {
-      color: #ddd !important;
+      color: #bbbbbb !important; /* 이전보다 밝은 회색 */
       overflow-wrap: anywhere;
       font-size: 14px !important;
     }
 
-    .sidebar ul li.active > a {
-      color: #ffffff !important;
-      font-weight: bold;
-    }
+/* 사이드바 활성화된 링크 */
+.sidebar ul li.active > a {
+  color: #ffffff !important;
+  font-weight: bold;
+}
 
     .sidebar .app-sub-sidebar {
       padding-left: 10px !important;
@@ -67,11 +68,14 @@
       margin-left: 10px !important;
     }
 
-    .sidebar .app-sub-sidebar li a {
-      white-space: normal !important;
-      word-break: keep-all;
-      line-height: 1.6;
-    }
+
+/* 사이드바 서브 제목 (Step 등) */
+.sidebar .app-sub-sidebar li a {
+  color: #dddddd !important; /* 더 밝은 회색으로 */
+  white-space: normal !important;
+  word-break: keep-all;
+  line-height: 1.6;
+}
 
     .sidebar li > p {
       color: #f4c66c !important;
