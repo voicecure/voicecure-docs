@@ -23,4 +23,4 @@
     - [연습 5. with 'wi'](type1-step1.md#step-3-vocal-fry와-가성을-연결한-고음-연습법-with-39wi39)
     - [연습 6. with 'eow'](type1-step1.md#step-3-듀얼톤-엑서사이즈-두-기술의-조화-with-39eow39)
   - [Step 4. 뉴트럴 밸런스]
-    - [연습 1. with 'mam'](type1-step1.md#step-3-고음을-위한-얇은-소리-연습법-with-39mam39)
+    - [연습 1. with 'hum'](type1-step1.md#step-4-mum-발음이-어려울-때-간단한-대체-발성-연습법-with-39hum39)
