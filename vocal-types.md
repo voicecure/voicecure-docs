@@ -1,7 +1,8 @@
   
-  # Type I: 호흡 의존형 (Breath-Dependent Type)
+# Type I: 호흡 의존형 (Breath-Dependent Type)
   
 <img src="T1_breath_dependent.png" alt="Type I 호흡 의존형 이미지" width="480" style="margin-bottom: 24px;" />  
+
   
 호흡 의존형 발성은 호흡(에너지원)의 압력 조절이 과도하게 이루어지면서,  
 **1차 밸브(내후두근을 포함한 성대)** 와 **2차 밸브(성도)** 의 조절 능력이 부족하여 나타나는 발성 패턴입니다.  
@@ -39,7 +40,7 @@
   
 ---
   
-  # Type II: 내후두근 의존형 (Intrinsic Muscle-Dependent Type)  
+# Type II: 내후두근 의존형 (Intrinsic Muscle-Dependent Type)  
   
 <img src="T2_Intrinsic Muscle-Dependent.png" alt="Type II 내후두근 의존형 이미지" width="480" style="margin-bottom: 24px;" />  
 
@@ -63,7 +64,7 @@
   
 ---
   
-  # Type III: 외후두근 의존형 (Extrinsic Muscle-Dependent Type)  
+# Type III: 외후두근 의존형 (Extrinsic Muscle-Dependent Type)  
   
 <img src="T3_Extrinsic Muscle-Dependent.png" alt="Type III 외후두근 의존형 이미지" width="480" style="margin-bottom: 24px;" />  
 
@@ -117,7 +118,7 @@ Type I(호흡 의존형)에서 나타나는 강하게 밀어내고 소리치는 
   
 ---
   
-  # Type IV: 과소 기능형 (Hypofunctional Type)  
+# Type IV: 과소 기능형 (Hypofunctional Type)  
 
     
 <img src="T4_Hypofunctional.png" alt="Type IV 과소기능형 이미지" width="480" style="margin-bottom: 24px;" />  
