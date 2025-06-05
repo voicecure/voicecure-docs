@@ -42,6 +42,18 @@
     }
 
     /* 사이드바 설정 */
+
+/* 사이드바 내부 회색 텍스트 (비활성 링크 스타일) */
+.sidebar .app-sub-sidebar li:not(.active) > a {
+  color: #cccccc !important;  /* 더 밝은 회색 */
+  font-weight: 500;
+}
+
+/* 또는 전체적으로 밝은 색으로 처리하려면 */
+.sidebar .app-sub-sidebar li > a {
+  color: #dddddd !important;
+}
+    
     .sidebar {
       background-color: #111 !important;
       width: 360px !important;
