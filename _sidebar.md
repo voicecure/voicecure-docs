@@ -24,3 +24,7 @@
     - [연습 6. with 'eow'](type1-step1.md#step-3-듀얼톤-엑서사이즈-두-기술의-조화-with-39eow39)
   - [Step 4. 뉴트럴 밸런스]
     - [연습 1. with 'hum'](type1-step1.md#step-4-mum-발음이-어려울-때-간단한-대체-발성-연습법-with-39hum39)
+    - [연습 2. with 'Mum'](type1-step1.md#step-4-소리의-어색함과-밝음의-조화-neutral-exercise-with-39mum39)
+    - [연습 3. with 'ung'](type1-step1.md#step-4-허밍으로-목소리-유연하게-만들기-with-39ung39)
+    - [연습 4. with 'ung'](type1-step1.md#step-4-삼킴-근육의-긴장을-풀어주는-하행-연습법-with-39ung39)
+    - [연습 5. with 'uh'](type1-step1.md#step-4-뉴트럴-밸런스-with-39uh39)
