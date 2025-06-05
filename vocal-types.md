@@ -39,9 +39,10 @@
   
 ---
   
-  # Type II: 내후두근 의존형 (Intrinsic Muscle-Dependent Type)
+  # Type II: 내후두근 의존형 (Intrinsic Muscle-Dependent Type)  
   
 <img src="T2_Intrinsic Muscle-Dependent.png" alt="Type II 내후두근 의존형 이미지" width="480" style="margin-bottom: 24px;" />  
+
   
 내후두근 의존형 발성은 호흡을 통해 생성된 에너지가 **1차 밸브(내후두근을 포함한 성대)** 에서  
 과도하게 저항하고 억제되는 형태의 발성 패턴입니다.  
@@ -65,6 +66,7 @@
   # Type III: 외후두근 의존형 (Extrinsic Muscle-Dependent Type)  
   
 <img src="T3_Extrinsic Muscle-Dependent.png" alt="Type III 외후두근 의존형 이미지" width="480" style="margin-bottom: 24px;" />  
+
   
 외후두근 의존형 발성은 음정을 올릴 때, 성대 자체(내후두근을 포함한 성대)의 조절보다는   
 **“외후두근(후두를 끌어 올리는 외부 근육)”** 을 과도하게 사용하는 발성 패턴입니다.   
@@ -115,9 +117,11 @@ Type I(호흡 의존형)에서 나타나는 강하게 밀어내고 소리치는 
   
 ---
   
-  # Type IV: 과소 기능형 (Hypofunctional Type)
-  
-<img src="T4_Hypofunctional.png" alt="Type IV 과소기능형 이미지" width="480" style="margin-bottom: 24px;" />
+  # Type IV: 과소 기능형 (Hypofunctional Type)  
+
+    
+<img src="T4_Hypofunctional.png" alt="Type IV 과소기능형 이미지" width="480" style="margin-bottom: 24px;" />  
+
   
 과소 기능형 발성은 **성대 내전(1차 밸브)과 호흡(에너지원),  
 그리고 성도(2차 밸브)의 기능이 전반적으로 약화된 상태**를 의미합니다.  
@@ -162,7 +166,8 @@ Type IV(과소 기능형)는 **과소 기능형은 단순히 기능이 약한 �
   
   # Type V: 균형형 (Balanced Type)  
   
-<img src="T5_Balanced.png" alt="Type V: 균형형 이미지" width="480" style="margin-bottom: 24px;" />
+<img src="T5_Balanced.png" alt="Type V: 균형형 이미지" width="480" style="margin-bottom: 24px;" />  
+
   
 균형형은 **호흡(에너지 공급), 성대 내전(1차 밸브), 성도 조절(2차 밸브)**,   
 그리고 **후두 위치의 안정성이 적절히 조화를 이루는 이상적인 발성 상태**입니다.  
