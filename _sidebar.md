@@ -15,6 +15,7 @@
     - [연습 2. with 'Beoup'](type1-step1.md#step-2-입술의-저항을-활용한-연습법-with-39beoup39)
     - [연습 3. with 'goog'](type1-step1.md#step-2-성대-스트레칭과-저항-감각-연습법-with-39goog39)
     - [연습 4. with 'a'](type1-step1.md#step-2-얇은-성대-조절-with-39a39)
-    - [연습 5. with 'mam'](type1-step1.md#step-3-고음을-위한-얇은-소리-연습법-with-39mam39)
-    - [연습 6. with 'miya'](type1-step1.md#step-3-성대-스트레칭과-얇은-소리-연결-연습-with-39miya39)
-    - [연습 7. with 'bbap'](type1-step1.md#step-3-무거운-습관을-벗어나기-위한-밝은-소리-연습법-with-39bbap39)
+  - [Step 3. 성도 조절 연습]
+    - [연습 1. with 'mam'](type1-step1.md#step-3-고음을-위한-얇은-소리-연습법-with-39mam39)
+    - [연습 2. with 'miya'](type1-step1.md#step-3-성대-스트레칭과-얇은-소리-연결-연습-with-39miya39)
+    - [연습 3. with 'bbap'](type1-step1.md#step-3-무거운-습관을-벗어나기-위한-밝은-소리-연습법-with-39bbap39)
