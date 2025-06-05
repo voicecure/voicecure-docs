@@ -1,5 +1,5 @@
   
-# Type I: 호흡 의존형 (Breath-Dependent Type)
+  # Type I: 호흡 의존형 (Breath-Dependent Type)
   
 <img src="T1_breath_dependent.png" alt="Type I 호흡 의존형 이미지" width="480" style="margin-bottom: 24px;" />
   
@@ -39,7 +39,7 @@
   
 ---
   
-# Type II: 내후두근 의존형 (Intrinsic Muscle-Dependent Type)
+  # Type II: 내후두근 의존형 (Intrinsic Muscle-Dependent Type)
   
 <img src="T2_Intrinsic Muscle-Dependent.png" alt="Type II 내후두근 의존형 이미지" width="480" style="margin-bottom: 24px;" />  
   
@@ -62,7 +62,7 @@
   
 ---
   
-# Type III: 외후두근 의존형 (Extrinsic Muscle-Dependent Type)  
+  # Type III: 외후두근 의존형 (Extrinsic Muscle-Dependent Type)  
   
 <img src="T3_Extrinsic Muscle-Dependent.png" alt="Type III 외후두근 의존형 이미지" width="480" style="margin-bottom: 24px;" />  
   
@@ -115,7 +115,7 @@ Type I(호흡 의존형)에서 나타나는 강하게 밀어내고 소리치는 
 
 ---
   
-# Type IV: 과소 기능형 (Hypofunctional Type)
+  # Type IV: 과소 기능형 (Hypofunctional Type)
   
 <img src="T4_Hypofunctional.png" alt="Type IV 과소기능형 이미지" width="480" style="margin-bottom: 24px;" />
   
@@ -156,7 +156,7 @@ Type IV(과소 기능형)는 **과소 기능형은 단순히 기능이 약한 �
   
 ---
   
-# Type V: 균형형 (Balanced Type)
+  # Type V: 균형형 (Balanced Type)
   
 <img src="T5_Balanced.png" alt="Type V: 균형형 이미지" width="480" style="margin-bottom: 24px;" />
   
