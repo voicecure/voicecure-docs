@@ -54,4 +54,8 @@
     
       - [연습 1. with 'miya'](type2.md#step-2-성대-스트레칭과-얇은-소리-연습법-with-39miya39)
       - [연습 2. with 'gyaek''](type2.md#step-2-편한-고음을-위한-엣지-연습법-with-39gyaek39)
-      - [연습 3. with 'bbap'](type2.md#)
+      - [연습 3. with 'bbap'](type2.md#step-2-무거운-습관을-벗어나기-위한-밝은-소리-연습법-with-39bbap39)
+      - [연습 3. with 'huh'](type2.md#step-2-할아버지와-우는-소리-결합-연습법-with-39huh39)
+           
+  -  <p>[Step 3. 뉴트럴 밸런스]<p>
+    
