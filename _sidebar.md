@@ -53,9 +53,14 @@
   -  <p>[Step 2. 성도 조절 연습]<p>
     
       - [연습 1. with 'miya'](type2.md#step-2-성대-스트레칭과-얇은-소리-연습법-with-39miya39)
-      - [연습 2. with 'gyaek''](type2.md#step-2-편한-고음을-위한-엣지-연습법-with-39gyaek39)
+      - [연습 2. with 'gyaek'](type2.md#step-2-편한-고음을-위한-엣지-연습법-with-39gyaek39)
       - [연습 3. with 'bbap'](type2.md#step-2-무거운-습관을-벗어나기-위한-밝은-소리-연습법-with-39bbap39)
       - [연습 3. with 'huh'](type2.md#step-2-할아버지와-우는-소리-결합-연습법-with-39huh39)
            
   -  <p>[Step 3. 뉴트럴 밸런스]<p>
     
+      - [연습 1. with 'ung'](type2.mdstep-3-허밍으로-목소리-유연하게-만들기-with-39ung39)
+      - [연습 2. with 'ung'](type2.md#step-3-턱-밑-근육의-긴장을-줄이기-위한-연습-with-39ung39)
+      - [연습 3. with 'uh'](type2.md#step-3-뉴트럴-밸런스-with-39uh39)
+
+- ⚙ Type 3. 외후두근 의존형 워크플로우
