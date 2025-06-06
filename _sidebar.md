@@ -51,3 +51,7 @@
       - [연습 3. with 'wuh'](type2.md#step-1-2-정교한-발성-감각을-위한-휘슬-보이스-연습-with-39wuh39)
         
   -  <p>[Step 2. 성도 조절 연습]<p>
+    
+      - [연습 1. with 'miya'](type2.md#step-2-성대-스트레칭과-얇은-소리-연습법-with-39miya39)
+      - [연습 2. with 'gyaek''](type2.md#step-2-편한-고음을-위한-엣지-연습법-with-39gyaek39)
+      - [연습 3. with 'bbap'](type2.md#)
