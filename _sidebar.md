@@ -7,7 +7,7 @@
   - [Type IV: 과소 기능형 (Hypofunctional Type)](vocal-types.md#type-iv-과소-기능형-hypofunctional-type)  
   - [Type V: 균형형 (Balanced Type)](vocal-types.md#type-v-균형형-balanced-type)
 
-- ⚙ Type 1. 호흡 의존형 훈련 워크플로우
+- ⚙ Type 1. 호흡 의존형 워크플로우
   -  <p>[Step 1. 호흡 조절 연습]<p>
   
     - [연습 1. 호흡 조절 연습](type1-step1.md#step-1-호흡-조절-연습)
@@ -35,3 +35,8 @@
     - [연습 3. with 'ung'](type1-step1.md#step-4-허밍으로-목소리-유연하게-만들기-with-39ung39)
     - [연습 4. with 'ung'](type1-step1.md#step-4-삼킴-근육의-긴장을-풀어주는-하행-연습법-with-39ung39)
     - [연습 5. with 'uh'](type1-step1.md#step-4-뉴트럴-밸런스-with-39uh39)
+
+- ⚙ Type 2. 내후두근 의존형 워크플로우
+  -  <p>[Step 1. 성대 내전 완화]<p>
+  
+    - [연습 1. 한숨 연습](type2.md#Step-1.-편안하고-자연스러운-발성을-위한-한숨-연습법)
