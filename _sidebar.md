@@ -37,8 +37,17 @@
     - [연습 5. with 'uh'](type1.md#step-4-뉴트럴-밸런스-with-39uh39)
 
 - ⚙ Type 2. 내후두근 의존형 워크플로우
-  -  <p>[Step 1. 성대 내전 완화]<p>
+  -  <p>[Step 1-1. 성대 내전 완화]<p>
   
-    - [연습 1. 한숨 연습](type2.md#Step-1.-편안하고-자연스러운-발성을-위한-한숨-연습법)
-    - [연습 2. with 'fwi'](type2.md#Step-1-조이거나-무거움을-줄이는-발성-연습법-with-39fwi39)
-    - [연습 3. with 'goo'](type2.md#Step-1-저음과-고음을-자연스럽게-연결하는-연습법-with-39goo39)
+    - [연습 1. 한숨 연습](type2.md#Step-1-1.-편안하고-자연스러운-발성을-위한-한숨-연습법)
+    - [연습 2. with 'fwi'](type2.md#Step-1-1-조이거나-무거움을-줄이는-발성-연습법-with-39fwi39)
+    - [연습 3. with 'goo'](type2.md#Step-1-1-저음과-고음을-자연스럽게-연결하는-연습법-with-39goo39)
+    - [연습 3. with 'gi'](type2.md#step-1-1-저음과-고음을-자연스럽게-연결하는-연습법-with-39gi39)'
+      
+  -  <p>[Step 1-2. 성대 내전 연습]<p>
+
+      - [연습 1. with 'a'](type2.md#step-1-2-얇은-성대-조절-with-39a39)
+      - [연습 2. with 'wi'](type2.md#step-1-2-vocal-fry와-가성을-결합한-고음-연습법-with-39wi39)
+      - [연습 3. with 'wuh'](type2.md#step-1-2-정교한-발성-감각을-위한-휘슬-보이스-연습-with-39wuh39)
+        
+  -  <p>[Step 2. 성도 조절 연습]<p>
