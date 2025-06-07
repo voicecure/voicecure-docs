@@ -64,3 +64,11 @@
       - [연습 3. with 'uh'](type2.md#step-3-뉴트럴-밸런스-with-39uh39)
 
 - ⚙ Type 3. 외후두근 의존형 워크플로우
+  -  <p>[Step 1. 호흡 조절]<p>
+  
+    - [연습 1. 호흡 조절 연습](type1-step1.md#)
+
+  -  <p>[Step 2. 후두 안정]<p>
+    
+    - [연습 3. with 'goo'](type3.md#Step-2-저음과-고음을-자연스럽게-연결하는-연습법-with-39goo39)
+
