@@ -70,5 +70,5 @@
 
   -  <p>[Step 2. 후두 안정]<p>
     
-    - [연습 3. with 'goo'](type3.md#Step-2-저음과-고음을-자연스럽게-연결하는-연습법-with-39goo39)
+    - [연습 1. with 'goo'](type3.md#Step-2-저음과-고음을-자연스럽게-연결하는-연습법-with-39goo39)
 
