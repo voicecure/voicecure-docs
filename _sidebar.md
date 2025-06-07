@@ -81,3 +81,6 @@
     - [연습 2. with 'vuh'](type3.md#step-3-호흡과-성대-링크-해제-연습-with-39vuh39)
     - [연습 3. with 'Beoup'](type3.md#step-3-입술의-저항을-활용한-연습법-with-39beoup39)
     - [연습 4. with 'wi'](type3.md#step-3-vocal-fry와-가성을-결합한-고음-연습법-with-39wi39)
+  
+  - <p>[Step 4. 뉴트럴 밸런스]<p>
+ 
