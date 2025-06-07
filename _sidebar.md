@@ -73,3 +73,4 @@
     - [연습 1. with 'goo'](type3.md#Step-2.-고음과-저음을-자연스럽게-연결하는-연습법-with-39goo39)
     - [연습 2. with 'huh'](type3.md#step-2-할아버지와-우는-소리-결합-연습법-with-39huh39)
     - [연습 3. with 'goog'](type3.md#step-2-성대-스트레칭과-저항-감각-연습법-with-39goog39)
+    - [연습 4. with 'eow'](type3.md#step-2-듀얼톤-엑서사이즈-두-기술의-조화-with-39eow39)
