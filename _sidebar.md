@@ -39,7 +39,7 @@
 - ⚙ Type 2. 내후두근 의존형 워크플로우
   -  <p>[Step 1-1. 성대 내전 완화]<p>
   
-    - [연습 1. 한숨 연습](type2.md#Step-1-1.-편안하고-자연스러운-발성을-위한-한숨-연습법)
+    - [연습 1. with 'sigh'](type2.md#Step-1-1.-편안하고-자연스러운-발성을-위한-한숨-연습법)
     - [연습 2. with 'fwi'](type2.md#Step-1-1-조이거나-무거움을-줄이는-발성-연습법-with-39fwi39)
     - [연습 3. with 'goo'](type2.md#Step-1-1-저음과-고음을-자연스럽게-연결하는-연습법-with-39goo39)
     - [연습 3. with 'gi'](type2.md#step-1-1-저음과-고음을-자연스럽게-연결하는-연습법-with-39gi39)'
@@ -68,9 +68,16 @@
   
     - [연습 1. 호흡 조절 연습](type1-step1.md#)
 
-  -  <p>[Step 2. 후두 안정]<p>
+  -  <p>[Step 2. 보상 제거(후두 안정)]<p>
     
     - [연습 1. with 'goo'](type3.md#Step-2.-고음과-저음을-자연스럽게-연결하는-연습법-with-39goo39)
     - [연습 2. with 'huh'](type3.md#step-2-할아버지와-우는-소리-결합-연습법-with-39huh39)
-    - [연습 3. with 'goog'](type3.md#step-2-성대-스트레칭과-저항-감각-연습법-with-39goog39)
-    - [연습 4. with 'eow'](type3.md#step-2-듀얼톤-엑서사이즈-두-기술의-조화-with-39eow39)
+    - [연습 3. with 'eow'](type3.md#step-2-듀얼톤-엑서사이즈-두-기술의-조화-with-39eow39)
+    - [연습 4. with 'goog'](type3.md#step-2-성대-스트레칭과-저항-감각-연습법-with-39goog39)
+      
+  -  <p>[Step 3. 성대 내전 연습]<p>
+
+    - [연습 1. witj 'sigh'](type3.md#step-3-편안하고-자연스러운-발성을-위한-한숨-연습법-with-39한숨39)
+    - [연습 2. with 'vuh'](type3.md#step-3-호흡과-성대-링크-해제-연습-with-39vuh39)
+    - [연습 3. with 'Beoup'](type3.md#step-3-입술의-저항을-활용한-연습법-with-39beoup39)
+    - [연습 4. with 'wi'](type3.md#step-3-vocal-fry와-가성을-결합한-고음-연습법-with-39wi39)
