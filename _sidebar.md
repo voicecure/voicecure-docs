@@ -93,5 +93,16 @@
   
     - [연습 1. 호흡 조절 연습](type4.md#step-1-조절-전에-필요한-기초-힘-강한-호흡-연습)
 
-  -  <p>[Step 2. 보상 제거(후두 안정)]<p>
-    
+  -  <p>[Step 2. 성대 내전 연습]<p>
+  
+   - [연습 1. with 'uh'](type4.md#step-2-강한-성대-저항-연습-with-39uh39)
+   - [연습 2. with 'beoup'](type4.md#step-2-입술의-저항을-활용한-연습법-with-39beoup39)
+   - [연습 3. with 'a'](type4.md#step-2-얇은-성대-조절-with-39a39)
+   - [연습 3. with 'gug'](type4.md#step-2-헤비믹스-엑서사이즈-with-39gug39)
+
+  -  <p>[Step 3. 성도 조절 연습]<p>
+  
+   - [연습 1. with 'uh'](type4.md#step-2-강한-성대-저항-연습-with-39uh39)
+   - [연습 2. with 'beoup'](type4.md#step-2-입술의-저항을-활용한-연습법-with-39beoup39)
+   - [연습 3. with 'a'](type4.md#step-2-얇은-성대-조절-with-39a39)
+   - [연습 3. with 'gug'](type4.md#step-2-헤비믹스-엑서사이즈-with-39gug39)
