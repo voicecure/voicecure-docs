@@ -81,24 +81,24 @@ _____________________________________________________________________
 실제 발성 문제를 인식하고 해결하기 위한 실용적인 레슨 가이드라인입니다.  
 
 
-- **Type I: 호흡 의존형 (Breath-Dependent Type)**
+- **<span style="color:#4FC1FF">Type I: 호흡 의존형 (Breath-Dependent Type)</span>**
 
 고음을 낼 때 호흡의 양이나 힘에 의존하여 소리를 밀거나 지르는 습관
 
-- **Type II: 내후두근 의존형 (Intrinsic Muscle-Dependent Type)**
+- **<span style="color:#4FC1FF">Type II: 내후두근 의존형 (Intrinsic Muscle-Dependent Type)</span>**
 
 
   고음을 낼 때 과도한 성대 내전에 의존해 무겁게 소리 지르는 습관
 
-- **Type III: 외후두근 의존형 (Extrinsic Muscle-Dependent Type)**
+- **<span style="color:#4FC1FF">Type III: 외후두근 의존형 (Extrinsic Muscle-Dependent Type)</span>**
  
   고음을 낼 때 후두를 끌어올리는 외후두근이 지나치게 개입되는 상태
 
-- **Type IV: 과소 기능형 (Hypofunctional Type)**
+- **<span style="color:#4FC1FF">Type IV: 과소 기능형 (Hypofunctional Type)</span>**
   
   발성에 필요한 호흡, 성대, 성도 조절력이 전반적으로 낮거나 약한 상태
 
-- **Type V: 균형형 (Balanced Type)**
+- **<span style="color:#4FC1FF">Type V: 균형형 (Balanced Type)</span>**
     
   발성 기능 자체는 갖추었으나, 더 정교한 조절이나 표현이 필요한 단계
 
