@@ -105,4 +105,15 @@
      - [연습 1. with 'miya'](type4.md#step-3-성대-스트레칭과-얇은-소리-연습법-with-39miya39)
     - [연습 2. with 'gyaek'](type4.md#step-3-편한-고음을-위한-엣지-연습법-with-39gyaek39)
     - [연습 3. with 'bbap'](type4.md#step-3-무거운-습관을-벗어나기-위한-밝은-소리-연습법-with-39bbap39)
-    - [연습 3. with 'eow'](type4.md#step-2-헤비믹스-엑서사이즈-with-39gug39)
+    - [연습 3. with 'eow'](type4.md#step-3-듀얼-톤-엑서사이즈-두-기술의-조화-with-39eow39)
+
+  -  <p>[Step 3. 뉴트럴 밸런스]<p>
+  
+     - [연습 1. with 'ung'](type4.md#step-4-삼킴-근육의-긴장을-줄여주는-허밍-연습법-with-39ung39)
+     - [연습 2. with 'mum'](type4.md#step-4-소리의-어둠과-밝음의-조화-neutral-exercise-with-39mum39)
+     - [연습 3. with 'uh'](type4.md#step-4-밝음과-어두움-사이로-뉴트럴-보이스-연습-with-39uh39)
+
+- ⚙ Type 5. 균형형 워크플로우
+ -  <p>[Step 1. 호흡 조절]<p>
+  
+    - [연습 1. 호흡 조절 연습](type4.md#step-1-조절-전에-필요한-기초-힘-강한-호흡-연습)
