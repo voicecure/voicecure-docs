@@ -102,7 +102,7 @@
 
   -  <p>[Step 3. 성도 조절 연습]<p>
   
-   - [연습 1. with 'uh'](type4.md#step-2-강한-성대-저항-연습-with-39uh39)
-   - [연습 2. with 'beoup'](type4.md#step-2-입술의-저항을-활용한-연습법-with-39beoup39)
-   - [연습 3. with 'a'](type4.md#step-2-얇은-성대-조절-with-39a39)
-   - [연습 3. with 'gug'](type4.md#step-2-헤비믹스-엑서사이즈-with-39gug39)
+   - [연습 1. with 'miya'](type4.md#step-3-성대-스트레칭과-얇은-소리-연습법-with-39miya39)
+   - [연습 2. with 'gyaek'](type4.md#step-3-편한-고음을-위한-엣지-연습법-with-39gyaek39)
+   - [연습 3. with 'bbap'](type4.md#step-3-무거운-습관을-벗어나기-위한-밝은-소리-연습법-with-39bbap39)
+   - [연습 3. with 'eow'](type4.md#step-2-헤비믹스-엑서사이즈-with-39gug39)
