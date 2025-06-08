@@ -77,10 +77,15 @@
       
   -  <p>[Step 3. 성대 내전 연습]<p>
 
-    - [연습 1. witj 'sigh'](type3.md#step-3-편안하고-자연스러운-발성을-위한-한숨-연습법-with-39한숨39)
+    - [연습 1. with 'sigh'](type3.md#step-3-편안하고-자연스러운-발성을-위한-한숨-연습법-with-39한숨39)
     - [연습 2. with 'vuh'](type3.md#step-3-호흡과-성대-링크-해제-연습-with-39vuh39)
     - [연습 3. with 'Beoup'](type3.md#step-3-입술의-저항을-활용한-연습법-with-39beoup39)
     - [연습 4. with 'wi'](type3.md#step-3-vocal-fry와-가성을-결합한-고음-연습법-with-39wi39)
   
   - <p>[Step 4. 뉴트럴 밸런스]<p>
- 
+
+     - [연습 1. with 'ung'](type3.md#step-4-삼킴-근육의-긴장을-줄여주는-허밍-연습법-with-39ung39)
+     - [연습 2. with 'hum'](type3.md#step-4-mum-발음이-어려울-때-간단한-대체-발성-연습법-with-39hum39)
+     - [연습 3. with 'uh'](type3.md#step-4-밝음과-어두움-사이로-뉴트럴-보이스-연습-with-39uh39)
+
+- ⚙ Type 4. 과소기능형 워크플로우
