@@ -34,7 +34,7 @@ Step 1은
 
 #### <span style="color:#03A9F4"> 🛠 연습 목록 (문제별 선택 적용)</span>
 
-###  <span style="color:#ECEFF1"> 고음에서 목이 조이거나, 소리가 눌리는 느낌이 자주 들 경우</span>
+###  <span style="color:#29B6F6"> 고음에서 목이 조이거나, 소리가 눌리는 느낌이 자주 들 경우</span>
 
 <div class="training-box">
 
