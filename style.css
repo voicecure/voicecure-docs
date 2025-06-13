@@ -1,7 +1,20 @@
 .training-box {
-  background-color: #f9f9f9;
-  border-left: 4px solid #2A7FFF;
-  padding: 1rem 1.5rem;
+  background-color: #2a2a2a; /* 다크 테마에 잘 어울리는 배경 */
+  border-left: 4px solid #418cff;
+  color: #eaeaea;
+  padding: 1.5rem;
   margin: 2rem 0;
   border-radius: 6px;
+}
+
+.training-box h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.training-box p {
+  line-height: 1.7;
+  margin: 0.5rem 0;
 }
