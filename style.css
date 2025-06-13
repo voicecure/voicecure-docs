@@ -1,22 +1,32 @@
-.training-box {
-  background-color: #1e1e1e;
-  border-left: 4px solid #ffca28;  /* 노란색 브랜드 강조 */
-  color: #eaeaea;
-  padding: 1.5rem;
-  margin: 2rem 0;
-  border-radius: 6px;
+h2 {
+  color: #FFB300;
+  font-weight: 700;
+}
+
+h3 {
+  color: #B0BEC5;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 2.5rem;
 }
 
 .training-box h4 {
-  color: #ffffff;
+  color: #FFECB3;
   font-weight: 600;
-  font-size: 1.05rem;
-  margin-top: 0;
-  margin-bottom: 1rem;
 }
 
-.training-box p {
-  line-height: 1.7;
-  margin: 0.5rem 0;
+.reminder-title {
+  color: #03A9F4;
+  font-weight: bold;
+  margin-top: 2rem;
+  font-size: 1.05rem;
+}
+
+p {
   color: #eaeaea;
+}
+
+.strong {
+  font-weight: bold;
+  color: #ffffff;
 }
