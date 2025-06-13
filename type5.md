@@ -58,7 +58,7 @@ Step 1은
 
 <div class="training-box">
 
-#### 목이 조이는 문제 해결을 위한 발성 연습법 with 'foo'
+#### <span style="color:#FFCA28">목이 조이는 문제 해결을 위한 발성 연습법 with 'foo'</span>
 
 이 연습은 고음을 낼 때 목 주변이 조이거나,  
 과도하게 밝은 소리를 내려는 습관으로 인해 불편함이 생기는 경우에 적합합니다.
