@@ -20,7 +20,7 @@ Type 5는 이미 일정 수준의 발성 기능을 갖춘 학습자에게 해당
 이런 접근은 단순한 루틴보다 훨씬 실용적이며,  
 스스로의 상태를 이해하고 조절하는 데 큰 도움이 됩니다.  
 
-### <span style="color:#f4c66c">Step 1. 기초 연결 연습</span>
+### <span style="color:#FFECB3">Step 1. 기초 연결 연습</span>
 
 Step 1은  
 저음과 고음을 억지로 밀거나 끌어올리는 방식이 아니라,  
@@ -32,13 +32,13 @@ Step 1은
 
 ---
 
-#### <span style="color:#9E9E9E"> 🛠 연습 목록 (문제별 선택 적용)</span>
+#### <span style="color:#B0BEC5"> 🛠 연습 목록 (문제별 선택 적용)</span>
 
 ###  <span style="color:#ECEFF1"> 고음에서 목이 조이거나, 소리가 눌리는 느낌이 자주 들 경우</span>
 
 <div class="training-box">
 
-#### <span style="color:#FFECB3">조이거나 무거움을 줄이는 발성 연습법 with 'fwi'</span>
+#### <span style="color:#FFCA28">조이거나 무거움을 줄이는 발성 연습법 with 'fwi'</span>
 
 이 연습은 고음을 낼 때 소리를 밀어내거나 끌어올리는 습관을 완화하기 위해 사용됩니다.
 
