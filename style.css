@@ -1,6 +1,6 @@
 .training-box {
-  background-color: #2a2a2a; /* 다크 테마에 잘 어울리는 배경 */
-  border-left: 4px solid #f5b042; /* 부드러운 골드/앰버 느낌 */
+  background-color: #1e1e1e;
+  border-left: 4px solid #ffca28;  /* 노란색 브랜드 강조 */
   color: #eaeaea;
   padding: 1.5rem;
   margin: 2rem 0;
@@ -8,13 +8,15 @@
 }
 
 .training-box h4 {
-  font-size: 1.1rem;
-  font-weight: bold;
-  margin-top: 0;
   color: #ffffff;
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 .training-box p {
   line-height: 1.7;
   margin: 0.5rem 0;
+  color: #eaeaea;
 }
