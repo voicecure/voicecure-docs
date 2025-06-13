@@ -1,4 +1,6 @@
-/* 최상위 Type 제목 */
+/* ====== 제목 계층 ====== */
+
+/* Type 제목 (ex. Type 5. 균형형 워크플로우) */
 .type-title {
   color: #FFB300;
   font-size: 1.25rem;
@@ -7,7 +9,7 @@
   margin-bottom: 1rem;
 }
 
-/* Step 제목 */
+/* Step 제목 (ex. Step 1. 기초 연결 연습) */
 .step-title {
   color: #FFD54F;
   font-size: 1.1rem;
@@ -16,7 +18,7 @@
   margin-bottom: 1rem;
 }
 
-/* 중간 섹션 제목 (예: 연습 목록) */
+/* 중간 섹션 제목 (ex. 연습 목록) */
 .section-title {
   color: #03A9F4;
   font-size: 1.08rem;
@@ -25,7 +27,7 @@
   margin-bottom: 1rem;
 }
 
-/* 문제 설명 문장 (흰색보다 약간 연한 블루로 시선 유도) */
+/* 문제 상황 설명 문장 */
 .problem-description {
   color: #4FC3F7;
   font-size: 1.02rem;
@@ -33,17 +35,19 @@
   margin-bottom: 1rem;
 }
 
-/* 연습 박스 스타일 */
+
+/* ====== 연습 박스 (훈련 설명) ====== */
+
 .training-box {
   background-color: #1e1e1e;
   border-left: 4px solid #FFCA28;
-  color: #eaeaea;
   padding: 1.2rem 1.5rem;
   margin: 2rem 0;
   border-radius: 6px;
+  color: #eaeaea;
 }
 
-/* 박스 안 연습 제목 */
+/* 박스 내부 제목 */
 .training-box h4 {
   color: #FFCA28;
   font-size: 1.05rem;
@@ -52,9 +56,24 @@
   margin-bottom: 1rem;
 }
 
-/* 박스 안 본문 */
+/* 박스 내부 본문 텍스트 */
 .training-box p {
   color: #eaeaea;
   line-height: 1.6;
   margin-bottom: 0.8rem;
+}
+
+
+/* ====== 기타 기본 텍스트 ====== */
+
+/* 본문 기본 */
+p {
+  color: #eaeaea;
+  line-height: 1.6;
+}
+
+/* 강조 텍스트 */
+.strong {
+  font-weight: bold;
+  color: #ffffff;
 }
