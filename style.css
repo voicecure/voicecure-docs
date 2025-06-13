@@ -26,6 +26,14 @@ p {
   color: #eaeaea;
 }
 
+.section-title {
+  color: #03A9F4;
+  font-size: 1.08rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+
 .strong {
   font-weight: bold;
   color: #ffffff;
