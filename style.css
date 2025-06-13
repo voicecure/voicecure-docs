@@ -1,40 +1,60 @@
-h2 {
+/* 최상위 Type 제목 */
+.type-title {
   color: #FFB300;
+  font-size: 1.25rem;
   font-weight: 700;
-}
-
-h3 {
-  color: #B0BEC5;
-  font-weight: 500;
-  font-size: 1rem;
-  margin-top: 2.5rem;
-}
-
-.training-box h4 {
-  color: #FFECB3;
-  font-weight: 600;
-}
-
-.reminder-title {
-  color: #03A9F4;
-  font-weight: bold;
   margin-top: 2rem;
-  font-size: 1.05rem;
+  margin-bottom: 1rem;
 }
 
-p {
-  color: #eaeaea;
+/* Step 제목 */
+.step-title {
+  color: #FFD54F;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
+/* 중간 섹션 제목 (예: 연습 목록) */
 .section-title {
   color: #03A9F4;
   font-size: 1.08rem;
   font-weight: 600;
   margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
+/* 문제 설명 문장 (흰색보다 약간 연한 블루로 시선 유도) */
+.problem-description {
+  color: #4FC3F7;
+  font-size: 1.02rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
 
-.strong {
-  font-weight: bold;
-  color: #ffffff;
+/* 연습 박스 스타일 */
+.training-box {
+  background-color: #1e1e1e;
+  border-left: 4px solid #FFCA28;
+  color: #eaeaea;
+  padding: 1.2rem 1.5rem;
+  margin: 2rem 0;
+  border-radius: 6px;
+}
+
+/* 박스 안 연습 제목 */
+.training-box h4 {
+  color: #FFCA28;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* 박스 안 본문 */
+.training-box p {
+  color: #eaeaea;
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
 }
