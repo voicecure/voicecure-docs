@@ -34,7 +34,7 @@ Step 1은 저음과 고음을 무리 없이 자연스럽게 연결하는 데 중
 
 ---
 
-### <span style="color:(#03A9F4"> 🛠 연습 목록 (문제별 선택 적용)</span>
+### <span style="color:#03A9F4"> 🛠 연습 목록 (문제별 선택 적용)</span>
 
 #### <span style="color:#f4c66c">조이거나 무거움을 줄이는 발성 연습법 with 'fwi'</span>
 
@@ -111,7 +111,7 @@ Step 1은 저음과 고음을 무리 없이 자연스럽게 연결하는 데 중
 
 
 
-### <span style="color:(#03A9F4">Step 2. 성대 내전과 저항 연습</span>
+### <span style="color:#03A9F4">Step 2. 성대 내전과 저항 연습</span>
 
 Step 2는 얇은 소리를 유지하면서,    
 고음에 필요한 저항과 내전 감각을 조율하는 단계입니다.  
