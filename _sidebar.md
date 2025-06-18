@@ -115,7 +115,8 @@
 
 - ⚙ Type 5. 균형형 워크플로우
   -  <p>[Step 1. 기초 연결 연습]<p>
-  
+
+      - [기초 연결 연습](type5.md#step-1-기초-연결-연습)
       - [연습 1. with 'fwi'](type5.md#조이거나-무거움을-줄이는-발성-연습법-with-39fwi39)
       - [연습 2. with 'foo'](type5.md#목이-조이는-문제-해결을-위한-발성-연습법-with-39foo39)
       - [연습 3. with 'goo'](type5.md#저음과-고음을-자연스럽게-연결하는-연습법-with-39goo39)
@@ -125,6 +126,7 @@
 
   -  <p>[Step 2. 성대 내전과 저항 연습]<p>
 
+      - [성대 내전과 저항 연습](type5.md#step-2-성대-내전과-저항-연습)
       - [연습 1. with 'goog'](type5.md#성대-스트레칭과-저항-감각-연습법-with-39goog39)
       - [연습 2. with 'uh'](type5.md#강한-성대-저항-연습-with-39uh39)
       - [연습 3. with 'beoup'](type5.md#입술의-저항을-활용한-연습법-with-39beoup39)
@@ -133,6 +135,7 @@
 
   -  <p>[Step 3. 성도 저항과 밝은 음색 연습]<p>
 
+      - [성도 저항과 밝은 음색 연습](type5.md#step-3-성도-저항과-밝은-음색-연습)
       - [연습 1. with 'miya'](type5.md#성대-스트레칭과-얇은-소리-연습법-with-39miya39)
       - [연습 2. with 'gyaek'](type5.md#편한-고음을-위한-엣지-연습법-with-39gyaek39)
       - [연습 3. with 'bbap'](type5.md#무거운-습관을-벗어나기-위한-밝은-소리-연습법-with-39bbap39)
@@ -140,6 +143,7 @@
 
   -  <p>[Step 4. 뉴트럴 밸런스]<p>
 
+      - [뉴트럴 밸런스](type5.md#step-4-뉴트럴-밸런스)
       - [연습 1. with 'ung'](type5.md#삼킴-근육의-긴장을-줄여주는-허밍-연습법-with-39ung39)
       - [연습 2. with 'hum'](type5.md#mum-발음이-어려울-때-간단한-대체-발성-연습법-with-39hum39)
       - [연습 3. with 'mum'](type5.md#소리의-어둠과-밝음의-조화-neutral-exercise-with-39mum39)
