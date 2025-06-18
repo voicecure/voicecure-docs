@@ -95,10 +95,10 @@
 
   -  <p>[Step 2. 성대 내전 연습]<p>
 
-      - [연습 1. with 'uh'](type4.md#step-2-강한-성대-저항-연습-with-uh)
-      - [연습 2. with 'beoup'](type4.md#step-2-입술의-저항을-활용한-연습법-with-beoup)
-      - [연습 3. with 'a'](type4.md#step-2-얇은-성대-조절-with-a)
-      - [연습 4. with 'gug'](type4.md#step-2-헤비믹스-엑서사이즈-with-gug)
+      - [연습 1. with 'uh'](type4.md#step-2-강한-성대-저항-연습-with-39uh39)
+      - [연습 2. with 'beoup'](type4.md#step-2-입술의-저항을-활용한-연습법-with-39beoup39)
+      - [연습 3. with 'a'](type4.md#step-2-얇은-성대-조절-with-39a39)
+      - [연습 4. with 'gug'](type4.md#step-2-헤비믹스-엑서사이즈-with-39gug39)
   
   -  <p>[Step 3. 성도 조절 연습]<p>
   
@@ -118,15 +118,15 @@
   
       - [연습 1. with 'fwi'](type5.md#/type5?id=조이거나-무거움을-줄이는-발성-연습법-with-39fwi39)
       - [연습 2. with 'foo'](type5.md#/type5?id=목이-조이는-문제-해결을-위한-발성-연습법-with-39foo39)
-      - [연습 3. with 'goo'](type5.md#/type5?id=저음과-고음을-자연스럽게-연결하는-연습법-with-goo)
-      - [연습 4. with 'gi'](type5.md#/type5?id=저음과-고음을-자연스럽게-연결하는-연습법-with-gi)
-      - [연습 5. with 'wi'](type5.md#/type5?id=vocal-fry와-가성을-결합한-고음-연습법-with-wi)
-      - [연습 6. with 'wuh'](type5.md#/type5?id=정교한-발성-감각을-위한-휘슬-보이스-연습-with-wuh)
+      - [연습 3. with 'goo'](type5.md#/type5?id=저음과-고음을-자연스럽게-연결하는-연습법-with-39goo39)
+      - [연습 4. with 'gi'](type5.md#/type5?id=저음과-고음을-자연스럽게-연결하는-연습법-with-39gi39)
+      - [연습 5. with 'wi'](type5.md#/type5?id=vocal-fry와-가성을-결합한-고음-연습법-with-39wi39)
+      - [연습 6. with 'wuh'](type5.md#/type5?id=정교한-발성-감각을-위한-휘슬-보이스-연습-with-39wuh39)
 
   -  <p>[Step 2. 성대 내전과 저항 연습]<p>
 
-      - [연습 1. with 'goog'](type5.md#type5?id=성대-스트레칭과-저항-감각-연습법-with-goog)
-      - [연습 2. with 'uh'](type5.md#type5?id=강한-성대-저항-연습-with-uh)
-      - [연습 3. with 'beoup'](type5.md#type5?id=입술의-저항을-활용한-연습법-with-beoup)
-      - [연습 4. with 'a'](type5.md#type5?id=얇은-성대-조절-연습-with-a)
-      - [연습 5. with 'gug'](type5.md#type5?id=헤비믹스-벨팅-연습법-with-gug)
+      - [연습 1. with 'goog'](type5.md#type5?id=성대-스트레칭과-저항-감각-연습법-with-39goog39)
+      - [연습 2. with 'uh'](type5.md#type5?id=강한-성대-저항-연습-with-39uh39)
+      - [연습 3. with 'beoup'](type5.md#type5?id=입술의-저항을-활용한-연습법-with-39beoup39)
+      - [연습 4. with 'a'](type5.md#type5?id=얇은-성대-조절-연습-with-39a39)
+      - [연습 5. with 'gug'](type5.md#type5?id=헤비믹스-벨팅-연습법-with-39gug39)
