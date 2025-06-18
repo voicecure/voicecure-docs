@@ -114,7 +114,7 @@
       - [연습 3. with 'uh'](type4.md#step-4-밝음과-어두움-사이로-뉴트럴-보이스-연습-with-39uh39)
 
 - ⚙ Type 5. 균형형 워크플로우
-  -  <p>[Step 1. 기초 연결 연습](type5.md#step-1-기초-연결-연습)<p>
+  -  <p>[Step 1. 기초 연결 연습]<p>
   
       - [연습 1. with 'fwi'](type5.md#조이거나-무거움을-줄이는-발성-연습법-with-39fwi39)
       - [연습 2. with 'foo'](type5.md#목이-조이는-문제-해결을-위한-발성-연습법-with-39foo39)
@@ -130,3 +130,21 @@
       - [연습 3. with 'beoup'](type5.md#입술의-저항을-활용한-연습법-with-39beoup39)
       - [연습 4. with 'a'](type5.md#얇은-성대-조절-연습-with-39a39)
       - [연습 5. with 'gug'](type5.md#헤비믹스-벨팅-연습법-with-39gug39)
+
+  -  <p>[Step 3. 성도 저항과 밝은 음색 연습]<p>
+
+      - [연습 1. with 'miya'](type5.md#성대-스트레칭과-얇은-소리-연습법-with-39miya39)
+      - [연습 2. with 'gyaek'](type5.md#편한-고음을-위한-엣지-연습법-with-39gyaek39)
+      - [연습 3. with 'bbap'](type5.md#무거운-습관을-벗어나기-위한-밝은-소리-연습법-with-39bbap39)
+      - [연습 4. with 'eow'](type5.md#듀얼-톤-엑서사이즈-두-기술의-조화-with-39eow39)
+
+  -  <p>[Step 4. 뉴트럴 밸런스]<p>
+
+      - [연습 1. with 'ung'](type5.md#삼킴-근육의-긴장을-줄여주는-허밍-연습법-with-39ung39)
+      - [연습 2. with 'hum'](type5.md#mum-발음이-어려울-때-간단한-대체-발성-연습법-with-39hum39)
+      - [연습 3. with 'mum'](type5.md#소리의-어둠과-밝음의-조화-neutral-exercise-with-39mum39)
+      - [연습 4. with 'uh'](type5.md#밝음과-어두움-사이로-뉴트럴-보이스-연습-with-39uh39)
+
+  -  <p>[Step 5. 모음 전환 연습]<p>
+
+  
