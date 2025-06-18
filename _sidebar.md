@@ -10,14 +10,14 @@
 - ⚙ Type 1. 호흡 의존형 워크플로우
   -  <p>[Step 1. 호흡 조절 연습]<p>
   
-    - [연습 1. 호흡 조절 연습](type1.md#step-1-호흡-조절-연습)
+   - [연습 1. 호흡 조절 연습](type1.md#step-1-호흡-조절-연습)
 
   - <p>[Step 2. 성대 내전 연습]<p>
     
-    - [연습 1. with 'uh'](type1.md#step-2-강한-성대-저항-훈련-with-39uh39)
-    - [연습 2. with 'Beoup'](type1.md#step-2-입술의-저항을-활용한-연습법-with-39beoup39)
-    - [연습 3. with 'goog'](type1.md#step-2-성대-스트레칭과-저항-감각-연습법-with-39goog39)
-    - [연습 4. with 'a'](type1.md#step-2-얇은-성대-조절-with-39a39)
+   - [연습 1. with 'uh'](type1.md#step-2-강한-성대-저항-훈련-with-39uh39)
+   - [연습 2. with 'Beoup'](type1.md#step-2-입술의-저항을-활용한-연습법-with-39beoup39)
+   - [연습 3. with 'goog'](type1.md#step-2-성대-스트레칭과-저항-감각-연습법-with-39goog39)
+   - [연습 4. with 'a'](type1.md#step-2-얇은-성대-조절-with-39a39)
   
   - <p>[Step 3. 성도 조절 연습]<p>
     
@@ -91,29 +91,29 @@
 - ⚙ Type 4. 과소기능형 워크플로우
  -  <p>[Step 1. 호흡 조절]<p>
   
-    - [연습 1. 호흡 조절 연습](type4.md#step-1-조절-전에-필요한-기초-힘-강한-호흡-연습)
+   - [연습 1. 호흡 조절 연습](type4.md#step-1-조절-전에-필요한-기초-힘-강한-호흡-연습)
 
   -  <p>[Step 2. 성대 내전 연습]<p>
 
-- [연습 1. with 'uh'](type4.md#step-2-강한-성대-저항-연습-with-uh)
-- [연습 2. with 'beoup'](type4.md#step-2-입술의-저항을-활용한-연습법-with-beoup)
-- [연습 3. with 'a'](type4.md#step-2-얇은-성대-조절-with-a)
-- [연습 4. with 'gug'](type4.md#step-2-헤비믹스-엑서사이즈-with-gug)
-
+   - [연습 1. with 'uh'](type4.md#step-2-강한-성대-저항-연습-with-uh)
+   - [연습 2. with 'beoup'](type4.md#step-2-입술의-저항을-활용한-연습법-with-beoup)
+   - [연습 3. with 'a'](type4.md#step-2-얇은-성대-조절-with-a)
+   - [연습 4. with 'gug'](type4.md#step-2-헤비믹스-엑서사이즈-with-gug)
+  
   -  <p>[Step 3. 성도 조절 연습]<p>
   
-    - [연습 1. with 'miya'](type4.md#step-3-성대-스트레칭과-얇은-소리-연습법-with-39miya39)
-    - [연습 2. with 'gyaek'](type4.md#step-3-편한-고음을-위한-엣지-연습법-with-39gyaek39)
-    - [연습 3. with 'bbap'](type4.md#step-3-무거운-습관을-벗어나기-위한-밝은-소리-연습법-with-39bbap39)
-    - [연습 3. with 'eow'](type4.md#step-3-듀얼-톤-엑서사이즈-두-기술의-조화-with-39eow39)
+   - [연습 1. with 'miya'](type4.md#step-3-성대-스트레칭과-얇은-소리-연습법-with-39miya39)
+   - [연습 2. with 'gyaek'](type4.md#step-3-편한-고음을-위한-엣지-연습법-with-39gyaek39)
+   - [연습 3. with 'bbap'](type4.md#step-3-무거운-습관을-벗어나기-위한-밝은-소리-연습법-with-39bbap39)
+   - [연습 3. with 'eow'](type4.md#step-3-듀얼-톤-엑서사이즈-두-기술의-조화-with-39eow39)
 
   -  <p>[Step 3. 뉴트럴 밸런스]<p>
   
-     - [연습 1. with 'ung'](type4.md#step-4-삼킴-근육의-긴장을-줄여주는-허밍-연습법-with-39ung39)
-     - [연습 2. with 'mum'](type4.md#step-4-소리의-어둠과-밝음의-조화-neutral-exercise-with-39mum39)
-     - [연습 3. with 'uh'](type4.md#step-4-밝음과-어두움-사이로-뉴트럴-보이스-연습-with-39uh39)
+   - [연습 1. with 'ung'](type4.md#step-4-삼킴-근육의-긴장을-줄여주는-허밍-연습법-with-39ung39)
+   - [연습 2. with 'mum'](type4.md#step-4-소리의-어둠과-밝음의-조화-neutral-exercise-with-39mum39)
+   - [연습 3. with 'uh'](type4.md#step-4-밝음과-어두움-사이로-뉴트럴-보이스-연습-with-39uh39)
 
 - ⚙ Type 5. 균형형 워크플로우
  -  <p>[Step 1. 호흡 조절]<p>
   
-    - [연습 1. 호흡 조절 연습](type4.md#step-1-조절-전에-필요한-기초-힘-강한-호흡-연습)
+   - [연습 1. 호흡 조절 연습](type4.md#step-1-조절-전에-필요한-기초-힘-강한-호흡-연습)
