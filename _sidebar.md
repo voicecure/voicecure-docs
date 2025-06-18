@@ -151,4 +151,7 @@
 
   -  <p>[Step 5. 모음 전환 연습]<p>
 
-        - [·모음 전환 연습](type5.md#step-5-모음-전환-연습)
+      - [·모음 전환 연습](type5.md#step-5-모음-전환-연습)
+      - [연습 1. 모음 변화 연습 기본 개념](type5.md#삼킴-근육의-긴장을-줄여주는-허밍-연습법-with-39ung39)
+      - [연습 2. 밝은 모음 유지 – front to central](type5.md#mum-발음이-어려울-때-간단한-대체-발성-연습법-with-39hum39)
+      - [연습 3. with 'mum'](type5.md#소리의-어둠과-밝음의-조화-neutral-exercise-with-39mum39)
