@@ -125,8 +125,8 @@
 
   -  <p>[Step 2. 성대 내전과 저항 연습]<p>
 
-      - [연습 1. with 'goog'](type4.md#type5?id=성대-스트레칭과-저항-감각-연습법-with-goog)
-      - [연습 2. with 'uh'](type4.md#type5?id=강한-성대-저항-연습-with-uh)
-      - [연습 3. with 'beoup'](type4.md#type5?id=입술의-저항을-활용한-연습법-with-beoup)
-      - [연습 4. with 'a'](type4.md#type5?id=얇은-성대-조절-연습-with-a)
-      - [연습 5. with 'gug'](type4.md#type5?id=헤비믹스-벨팅-연습법-with-gug)
+      - [연습 1. with 'goog'](type5.md#type5?id=성대-스트레칭과-저항-감각-연습법-with-goog)
+      - [연습 2. with 'uh'](type5.md#type5?id=강한-성대-저항-연습-with-uh)
+      - [연습 3. with 'beoup'](type5.md#type5?id=입술의-저항을-활용한-연습법-with-beoup)
+      - [연습 4. with 'a'](type5.md#type5?id=얇은-성대-조절-연습-with-a)
+      - [연습 5. with 'gug'](type5.md#type5?id=헤비믹스-벨팅-연습법-with-gug)
