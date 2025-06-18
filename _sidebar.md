@@ -114,6 +114,19 @@
       - [연습 3. with 'uh'](type4.md#step-4-밝음과-어두움-사이로-뉴트럴-보이스-연습-with-39uh39)
 
 - ⚙ Type 5. 균형형 워크플로우
-  -  <p>[Step 1. 호흡 조절]<p>
+  -  <p>[Step 1. 기초 연결 연습]<p>
   
-      - [연습 1. 호흡 조절 연습](type4.md#step-1-조절-전에-필요한-기초-힘-강한-호흡-연습)
+      - [연습 1. with 'fwi'](type5.md#/type5?id=조이거나-무거움을-줄이는-발성-연습법-with-39fwi39)
+      - [연습 2. with 'foo'](type5.md#/type5?id=목이-조이는-문제-해결을-위한-발성-연습법-with-39foo39)
+      - [연습 3. with 'goo'](type5.md#/type5?id=저음과-고음을-자연스럽게-연결하는-연습법-with-goo)
+      - [연습 4. with 'gi'](type5.md#/type5?id=저음과-고음을-자연스럽게-연결하는-연습법-with-gi)
+      - [연습 5. with 'wi'](type5.md#/type5?id=vocal-fry와-가성을-결합한-고음-연습법-with-wi)
+      - [연습 6. with 'wuh'](type5.md#/type5?id=정교한-발성-감각을-위한-휘슬-보이스-연습-with-wuh)
+
+  -  <p>[Step 2. 성대 내전과 저항 연습]<p>
+
+      - [연습 1. with 'goog'](type4.md#type5?id=성대-스트레칭과-저항-감각-연습법-with-goog)
+      - [연습 2. with 'uh'](type4.md#type5?id=강한-성대-저항-연습-with-uh)
+      - [연습 3. with 'beoup'](type4.md#type5?id=입술의-저항을-활용한-연습법-with-beoup)
+      - [연습 4. with 'a'](type4.md#type5?id=얇은-성대-조절-연습-with-a)
+      - [연습 5. with 'gug'](type4.md#type5?id=헤비믹스-벨팅-연습법-with-gug)
