@@ -482,7 +482,7 @@ Step 5는 모음이 바뀌어도 성대와 성도의 조절을 유지할 수 있
 
 ---
 
-#### <span style="color:#f4c66c"> 균일한 음질을 위한 모음 유지 연습법 front to central</span>
+#### <span style="color:#f4c66c">균일한 음질을 위한 모음 유지 연습법 front to central</span>
 
 이 연습은 본격적인 모음 변화 연습에 앞서,  
 모음이 발성에 어떤 영향을 주는지 이해하고, 각 모음의 특성을 인식하는 데 중점을 둡니다.  
@@ -500,7 +500,7 @@ Step 5는 모음이 바뀌어도 성대와 성도의 조절을 유지할 수 있
 
 ---
 
-#### <span style="color:#f4c66c"> 균일한 음질을 위한 모음 유지 연습법 back to central</span>
+#### <span style="color:#f4c66c">균일한 음질을 위한 모음 유지 연습법 back to central</span>
 
 이 연습은 혀의 위치가 뒤쪽에 있는 어두운 모음에서 시작해,  
 중앙 모음으로 이동하더라도 소리의 음질이 바뀌지 않도록 유지하는 데 중점을 둡니다.  
