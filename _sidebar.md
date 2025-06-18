@@ -114,7 +114,7 @@
       - [연습 3. with 'uh'](type4.md#step-4-밝음과-어두움-사이로-뉴트럴-보이스-연습-with-39uh39)
 
 - ⚙ Type 5. 균형형 워크플로우
-  -  <p>[Step 1. 기초 연결 연습]<p>
+  -  <p>[Step 1. 기초 연결 연습](type5.md#step-1-기초-연결-연습)<p>
   
       - [연습 1. with 'fwi'](type5.md#조이거나-무거움을-줄이는-발성-연습법-with-39fwi39)
       - [연습 2. with 'foo'](type5.md#목이-조이는-문제-해결을-위한-발성-연습법-with-39foo39)
