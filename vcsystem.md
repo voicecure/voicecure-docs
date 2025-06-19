@@ -130,7 +130,7 @@
 그래서 소리의 밝기나 어두움, 명료도, 발음 방식 등을 조절하면서  
 호흡과 성대의 움직임과 함께 유기적으로 협응해야 합니다.  
 
-<img src="vcnetwork.png" alt="보컬트레이닝" width="480" style="margin-bottom: 24px;" />  
+<img src="vcnetwork.png" alt="보컬트레이닝" width="250" style="margin-bottom: 24px;" />  
 
 **이 세 가지 기능은 나누어 설명했지만,  
 실제 발성에서는 항상 동시에 작동하며 서로 영향을 주고받습니다.  
