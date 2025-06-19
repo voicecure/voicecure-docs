@@ -1,5 +1,5 @@
 
-## 1-1. 왜 진단이 필요한가요?
+## 1-1. <span style="color:#f4c66c">왜 진단이 필요한가요?</span>
 
 노래 연습을 하다 보면 이런 생각이 들 때가 있습니다.  
 
@@ -28,7 +28,7 @@
 다음 챕터에서는  
 그 진단이 어떤 개념들을 바탕으로 이루어지는지 함께 살펴보겠습니다.  
 
-## 1-2. 진단에 사용되는 개념들
+## 1-2. <span style="color:#f4c66c">진단에 사용되는 개념들</span>
 
 인강을 통해 발성을 배우는 경우,  
 코치가 곁에서 직접 피드백을 줄 수 없기 때문에  
@@ -58,7 +58,7 @@
 
 ---
 
-### Power–Source–Valve Model (보이스큐어 진단의 핵심 프레임)  
+### <span style="color:#f4c66c">Power–Source–Valve Model (보이스큐어 진단의 핵심 프레임)</span>
 
 <img src="valve2.png" alt="파워소스밸브" width="480" style="margin-bottom: 24px;" />  
 
@@ -94,7 +94,7 @@
 
 <img src="1power.png" alt="호흡" width="480" style="margin-bottom: 24px;" />  
 
-#### Power – 호흡 조절 기능
+#### <span style="color:#4FC1FF">Power – 호흡 조절 기능</span>
 
 발성에 필요한 **공기의 흐름(양과 압력)**을 조절하는 기능입니다.  
 호흡이 약하면 소리가 떨리거나 조이는 느낌이 생기고,  
@@ -110,7 +110,7 @@
 <img src="2valve.png" alt="성대" width="480" style="margin-bottom: 24px;" />  
 
 
-#### Source – 성대 조절 기능
+#### <span style="color:#4FC1FF">Source – 성대 조절 기능</span>
 
 성대를 닫고 여는 조절뿐 아니라, 길게 늘이거나 짧게 줄이는 조절도 포함됩니다.  
 성대가 너무 강하게 닫히면 소리가 무거워지거나 조이는 느낌이 생기고,  
@@ -123,7 +123,7 @@
 
 <img src="3valve.png" alt="성도" width="480" style="margin-bottom: 24px;" />  
 
-#### Valve – 성도 조절 기능
+#### <span style="color:#4FC1FF">Valve – 성도 조절 기능</span>
 
 성도(입, 인두, 혀 등)는 단순히 음색을 바꾸는 통로가 아니라,  
 성대의 움직임에 직접적으로 영향을 주는 조절 요소입니다.  
