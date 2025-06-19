@@ -92,7 +92,7 @@
 
 ---
 
-<img src="power.png" alt="호흡" width="480" style="margin-bottom: 24px;" />  
+<img src="1power.png" alt="호흡" width="480" style="margin-bottom: 24px;" />  
 
 #### Power – 호흡 조절 기능
 
@@ -107,7 +107,7 @@
 ---
 
 
-<img src="valve1.png" alt="성대" width="480" style="margin-bottom: 24px;" />  
+<img src="2valve.png" alt="성대" width="480" style="margin-bottom: 24px;" />  
 
 
 #### Source – 성대 조절 기능
@@ -121,7 +121,7 @@
 
 ---
 
-<img src="valve2.png" alt="성도" width="480" style="margin-bottom: 24px;" />  
+<img src="3valve.png" alt="성도" width="480" style="margin-bottom: 24px;" />  
 
 #### Valve – 성도 조절 기능
 
