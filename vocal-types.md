@@ -1,6 +1,3 @@
-
-# 트레이닝 타입 분류
-  
 ##  <span style="color:#f4c66c">Type I: 호흡 의존형 (Breath-Dependent Type)</span>
   
 <img src="T1_breath_dependent.png" alt="Type I 호흡 의존형 이미지" width="480" style="margin-bottom: 24px;" />  
