@@ -131,7 +131,9 @@
 호흡과 성대의 움직임과 함께 유기적으로 협응해야 합니다.  
 
 
-> *"세 가지가 하나가 될 때, 발성은 자유로워집니다."*
+> <span style="font-size: 1.4rem; font-weight: bold; color:#FFD54F;">
+> “세 가지가 하나가 될 때, 발성은 자유로워집니다.”
+> </span>
 
 <img src="vcnetwork.png" alt="보컬트레이닝" width="250" style="margin-bottom: 24px;" />  
 
