@@ -44,7 +44,7 @@
 그 안에 반복되는 경향을 파악함으로써,  
 훈련의 방향을 설정합니다.  
 
-### Source–Filter Theory (기초 개념)
+### <span style="color:#f4c66c">Source–Filter Theory (기초 개념)</span>
 소리는 성대에서 만들어진 '원초적인 소리(Source)'가  
 입과 혀, 인후 같은 통로(성도)를 거치며 '변형(Filter)'되어 최종적으로 들립니다.
 
