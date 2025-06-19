@@ -60,6 +60,8 @@
 
 ### Power–Source–Valve Model (보이스큐어 진단의 핵심 프레임)  
 
+<img src="valve2.png" alt="파워소스밸브" width="480" style="margin-bottom: 24px;" />  
+
 그래서 보이스큐어는  
 **Power (호흡)** – **Source (성대)** – **Valve (성도)**  
 세 가지 조절 기능을 기준으로 발성 경향을 진단합니다.  
@@ -90,6 +92,8 @@
 
 ---
 
+<img src="power.png" alt="호흡" width="480" style="margin-bottom: 24px;" />  
+
 #### Power – 호흡 조절 기능
 
 발성에 필요한 **공기의 흐름(양과 압력)**을 조절하는 기능입니다.  
@@ -102,6 +106,10 @@
 
 ---
 
+
+<img src="valve1.png" alt="성대" width="480" style="margin-bottom: 24px;" />  
+
+
 #### Source – 성대 조절 기능
 
 성대를 닫고 여는 조절뿐 아니라, 길게 늘이거나 짧게 줄이는 조절도 포함됩니다.  
@@ -112,6 +120,8 @@
 성대를 잘 닫고, 잘 늘이고, 잘 줄이는 조절 능력이 필요합니다.  
 
 ---
+
+<img src="valve2.png" alt="성도" width="480" style="margin-bottom: 24px;" />  
 
 #### Valve – 성도 조절 기능
 
