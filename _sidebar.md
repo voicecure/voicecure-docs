@@ -1,5 +1,8 @@
 - [🏠 홈으로](README.md)
 
+- 📘 보이스큐어 가이드
+  - [왜 진단이 필요한가요](vcsystem.md#1-1-왜-진단이-필요한가요)  
+
 - 📘 트레이닝 타입 분류  
   - [Type I: 호흡 의존형 (Breath-Dependent Type)](vocal-types.md#type-i-호흡-의존형-breath-dependent-type)  
   - [Type II: 내후두근 의존형 (Intrinsic Muscle-Dependent Type)](vocal-types.md#type-ii-내후두근-의존형-intrinsic-muscle-dependent-type)  
