@@ -46,7 +46,7 @@
 
 ### <span style="color:#f4c66c">Source–Filter Theory (기초 개념)</span>
 
-<img src="soursefilter.png" alt="소스필터이론" width="480" style="margin-bottom: 24px;" />  
+<img src="soursefilter.png" alt="소스필터이론" width="600" style="margin-bottom: 24px;" />  
 
 소리는 성대에서 만들어진 '원초적인 소리(Source)'가  
 입과 혀, 인후 같은 통로(성도)를 거치며 '변형(Filter)'되어 최종적으로 들립니다.
