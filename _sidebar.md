@@ -2,14 +2,14 @@
 
 - [📘 보이스큐어 가이드](vcsystem.md)
 
-- 📘 트레이닝 타입 분류  
+- 💡 트레이닝 타입 분류  
   - [Type I: 호흡 의존형 (Breath-Dependent Type)](vocal-types.md#type-i-호흡-의존형-breath-dependent-type)  
   - [Type II: 내후두근 의존형 (Intrinsic Muscle-Dependent Type)](vocal-types.md#type-ii-내후두근-의존형-intrinsic-muscle-dependent-type)  
   - [Type III: 외후두근 의존형 (Extrinsic Muscle-Dependent Type)](vocal-types.md#type-iii-외후두근-의존형-extrinsic-muscle-dependent-type)  
   - [Type IV: 과소 기능형 (Hypofunctional Type)](vocal-types.md#type-iv-과소-기능형-hypofunctional-type)  
   - [Type V: 균형형 (Balanced Type)](vocal-types.md#type-v-균형형-balanced-type)
 
-- ⚙ Type 1. 호흡 의존형 워크플로우
+- 🛠️ Type 1. 호흡 의존형 워크플로우
   -  <p>[Step 1. 호흡 조절 연습]<p>
   
    - [연습 1. 호흡 조절 연습](type1.md#step-1-호흡-조절-연습)
@@ -38,7 +38,7 @@
     - [연습 4. with 'ung'](type1.md#step-4-삼킴-근육의-긴장을-풀어주는-하행-연습법-with-39ung39)
     - [연습 5. with 'uh'](type1.md#step-4-뉴트럴-밸런스-with-39uh39)
 
-- ⚙ Type 2. 내후두근 의존형 워크플로우
+- 🛠️ Type 2. 내후두근 의존형 워크플로우
   -  <p>[Step 1-1. 성대 내전 완화]<p>
   
     - [연습 1. with 'sigh'](type2.md#Step-1-1.-편안하고-자연스러운-발성을-위한-한숨-연습법)
@@ -65,7 +65,7 @@
       - [연습 2. with 'ung'](type2.md#step-3-턱-밑-근육의-긴장을-줄이기-위한-연습-with-39ung39)
       - [연습 3. with 'uh'](type2.md#step-3-뉴트럴-밸런스-with-39uh39)
 
-- ⚙ Type 3. 외후두근 의존형 워크플로우
+- 🛠️ Type 3. 외후두근 의존형 워크플로우
   -  <p>[Step 1. 호흡 조절]<p>
   
       - [연습 1. 호흡 조절 연습](type3.md#step-1-조절-전에-필요한-기초-힘-강한-호흡-연습)
@@ -90,7 +90,7 @@
       - [연습 2. with 'hum'](type3.md#step-4-mum-발음이-어려울-때-간단한-대체-발성-연습법-with-39hum39)
       - [연습 3. with 'uh'](type3.md#step-4-밝음과-어두움-사이로-뉴트럴-보이스-연습-with-39uh39)
 
-- ⚙ Type 4. 과소기능형 워크플로우
+- 🛠️ Type 4. 과소기능형 워크플로우
   -  <p>[Step 1. 호흡 조절]<p>
   
       - [연습 1. 호흡 조절 연습](type4.md#step-1-조절-전에-필요한-기초-힘-강한-호흡-연습)
@@ -115,7 +115,7 @@
       - [연습 2. with 'mum'](type4.md#step-4-소리의-어둠과-밝음의-조화-neutral-exercise-with-39mum39)
       - [연습 3. with 'uh'](type4.md#step-4-밝음과-어두움-사이로-뉴트럴-보이스-연습-with-39uh39)
 
-- ⚙ Type 5. 균형형 워크플로우
+- 🛠️ Type 5. 균형형 워크플로우
   -  <p>[Step 1. 기초 연결 연습]<p>
 
       - [·기초 연결 연습](type5.md#step-1-기초-연결-연습)
