@@ -204,7 +204,7 @@
 운동 조절과 운동 학습, 기억의 형성 단계, 발성 감각 피드백 체계, 감각 통합 
 등에 대한 정리가 궁금하시다면 아래 영상을 참고해 주세요.  
 
-[![영상 보러가기(Youtube)](https://img.youtube.com/vi/TTlDeQNWsH4/0.jpg)](https://youtu.be/TTlDeQNWsH4) 
+<a href="https://youtu.be/TTlDeQNWsH4" target="_blank">영상 보러가기 (YouTube)</a>
 
 
 ---
