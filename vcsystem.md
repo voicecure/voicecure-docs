@@ -67,7 +67,7 @@
 
 ---
 
-### <span style="color:#f4c66c">Power–Source–Valve Model (보이스큐어 진단의 핵심 프레임)</span>
+### <span style="color:#f4c66c">Power–Source–Valve Model (보이스큐어의 프레임)</span>
 
 <img src="valve2.png" alt="파워소스밸브" width="480" style="margin-bottom: 24px;" />  
 
