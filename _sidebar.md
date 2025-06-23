@@ -3,9 +3,9 @@
 - 📘 보이스큐어 가이드
   - [1-1. 왜 진단이 필요한가요?](vcsystem.md#_1-1-왜-진단이-필요한가요)
   - [1-2. 진단에 사용되는 개념들](vcsystem.md#_1-2-진단에-사용되는-개념들)
-  - [Source–Filter Theory](vcsystem.md#sourcefilter-theory-기초-개념)
-  - [Power–Source–Valve Model](vcsystem.md#powersourcevalve-model-보이스큐어의-프레임)
-  - [발성 연습은 무엇을 위한 걸까요?](vcsystem.md#발성-연습은-무엇을-위한-걸까요)
+  - [-Source–Filter Theory](vcsystem.md#sourcefilter-theory-기초-개념)
+  - [-Power–Source–Valve Model](vcsystem.md#powersourcevalve-model-보이스큐어의-프레임)
+  - [-발성 연습은 무엇을 위한 걸까요?](vcsystem.md#발성-연습은-무엇을-위한-걸까요)
   - [2-1. 워크플로우란?](vcsystem.md#_2-1-워크플로우란)
   - [2-2. 왜 기능별로 나누어 연습하나요?](vcsystem.md#_2-2-왜-기능별로-나누어-연습하나요)
   - [2-3. 연습할 때 '어디에' 집중해야 할까요?](vcsystem.md#_2-3-연습할-때-어디에-집중해야-할까요-감각의-초점focus-of-attention) 
