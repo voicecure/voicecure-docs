@@ -156,6 +156,49 @@
 
 ---
 
+### <span style="color:#f4c66c">발성 연습은 무엇을 위한 걸까요?</span>
+
+우리가 노래를 부를 때  
+호흡을 더 세게 불거나 줄이거나, 혹은 성도를 조절하고  
+성대를 더 닫거나 낮추는 등의 모든 조절은  
+결국 **"성대의 움직임에 어떤 결과를 만들어내는가"** 와 연결되어 있습니다.
+
+물론, 소리만 듣고 **"지금 성대가 어떤 모양이다"** 라고 단정지을 수는 없습니다.  
+하지만 소리의 특성과 발성 반응을 통해  
+성대가 현재 어떤 방식으로 움직이고 있는지를 간접적으로 추론할 수는 있습니다.
+
+그래서 보이스큐어의 워크플로우는  
+**"성대를 이렇게 만들어라"** 는 지시가 아니라,  
+**호흡, 성도, 발음 조절을 통해 '원하는 성대 상태로 유도하는 것'** 을 목표로 설계되었습니다.
+
+---
+
+그리고 이 '원하는 상태'는,  
+소리가 시작되기 직전의 성대 모양을 기준으로  
+다음의 세 가지 유형으로 나누어 설명할 수 있습니다.
+
+<img src="lower stiffness.png" alt="Divergent" width="250" style="margin-bottom: 24px;" />  
+
+#### <span style="color:#4FC1FF">1. Divergent (발산형) – Chest voice 성향</span>
+→ 성대의 위쪽이 더 넓게 벌어진 형태로,  
+소리를 강하게 밀거나 고음을 지를 때 유도되기 쉬운 상태입니다.
+
+<img src="high stiffness.png" alt="convengent" width="250" style="margin-bottom: 24px;" />  
+
+#### <span style="color:#4FC1FF">2. Convergent (수렴형) – Head voice 성향</span>
+→ 성대의 아래쪽이 더 넓고 위쪽이 좁아진 형태로,  
+가성을 낼 때 유도되기 쉬운 상태입니다.
+
+<img src="low high.png" alt="ractanguler" width="250" style="margin-bottom: 24px;" />  
+
+#### <span style="color:#4FC1FF">3. Rectangular (직사각형형) – Mixed voice 성향</span>
+→ 성대의 위쪽과 아래쪽이 비슷한 폭으로 평행하게 유지되는 상태입니다.
+지나치게 강하게 닫히지도 않고, 약하게 벌어지지도 않은 중간 조절 상태로,
+보컬 트레이닝에서는 주로 **믹스 보이스(Mixed Voice)** 를 연습할 때
+이러한 성대 움직임이 자연스럽게 유도되도록 설계됩니다.
+
+
+---
 
 ## <span style="color:#f4c66c">2-1. 워크플로우란?</span>
 
