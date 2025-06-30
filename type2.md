@@ -296,7 +296,7 @@
 
 ---
 
-### <span style="color:#f4c66c">Step 3. 허밍으로 목소리 유연하게 만들기 – with 'ung'</span>
+### <span style="color:#f4c66c">Step 3. 허밍으로 목소리 유연하게 만들기 – with '엉:ung'</span>
   
 내후두근 의존형의 발성은  
 소리를 무겁게, 마치 무거운 물건을 들어올리듯 내는 경향이 있습니다.  
@@ -325,7 +325,7 @@
 
 ---
 
-### <span style="color:#f4c66c">Step 3. 턱 밑 근육의 긴장을 줄이기 위한 연습 – with '-ng'</span>
+### <span style="color:#f4c66c">Step 3. 턱 밑 근육의 긴장을 줄이기 위한 연습 – with '응:-ng'</span>
   
 앞선 허밍 연습에서 목이 조이거나 불편한 느낌이 있었다면,  
 삼킴에 관여하는 근육들이 과도하게 개입하고 있을 가능성이 있습니다.  
