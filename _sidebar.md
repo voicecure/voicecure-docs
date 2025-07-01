@@ -53,7 +53,7 @@
   -  <p>[Step 1-1. 성대 내전 완화]<p>
   
     - [연습 1. with 'sigh'](type2.md#Step-1-1.-편안하고-자연스러운-발성을-위한-한숨-연습법)
-    - [연습 2. with 'fwi'](type2.mdstep-1-1-조이거나-무거움을-줄이는-발성-연습법-with-39fi39)
+    - [연습 2. with 'fi'](type2.md#step-1-1-조이거나-무거움을-줄이는-발성-연습법-with-39fi39)
     - [연습 3. with '구:goo'](type2.md#step-1-1-저음과-고음을-자연스럽게-연결하는-연습법-with-39구goo39)
     - [연습 3. with '기:gi'](type2.md#step-1-1-저음과-고음을-자연스럽게-연결하는-연습법-with-39기gi39)
       
