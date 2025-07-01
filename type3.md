@@ -241,7 +241,7 @@
 
 ---
   
-### <span style="color:#f4c66c">Step 3. 얇은 성대 조절 – with ‘아:a’</span>
+### <span style="color:#f4c66c">Step 3. 얇은 성대 조절 – with '아:a'</span>
   
 외후두근 의존형 학습자는  
 고음을 낼 때 후두를 끌어올리거나   
