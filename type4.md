@@ -211,7 +211,7 @@
     
   ---
   
-### <span style="color:#f4c66c">Step 3. 편한 고음을 위한 엣지 연습법 with '깩 gek'</span>
+### <span style="color:#f4c66c">Step 3. 편한 고음을 위한 엣지 연습법 with '깩:gek'</span>
 
 과소기능형 학습자는 고음을 낼 때,  
 성대의 얇은 조절뿐 아니라 성도의 기능을 함께 활용하는 방식에도 익숙하지 않은 경우가 많습니다.  
