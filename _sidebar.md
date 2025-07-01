@@ -83,23 +83,24 @@
 
   -  <p>[Step 2. 보상 제거(후두 안정)]<p>
     
-      - [연습 1. with '구:goo'](type3.md#Step-2.-고음과-저음을-자연스럽게-연결하는-연습법-with-39goo39)
-      - [연습 2. with '허:huh'](type3.md#step-2-할아버지와-우는-소리-결합-연습법-with-39huh39)
-      - [연습 3. with '어우:eow'](type3.md#step-2-듀얼톤-엑서사이즈-두-기술의-조화-with-39eow39)
-      - [연습 4. with '국:goog'](type3.md#step-2-성대-스트레칭과-저항-감각-연습법-with-39goog39)
+      - [연습 1. with '구:goo'](type3.md#step-2.-고음과-저음을-자연스럽게-연결하는-연습법-with-39goo39)
+      - [연습 2. with '허:huh'](type3.md#step-2-할아버지와-우는-소리-결합-연습법-with-39허huh39)
+      - [연습 3. with '국:goog'](type3.md#step-2-성대-스트레칭과-저항-감각-연습법-with-39국goog39)
+      - [연습 4. with '어우:oh'](type3.md#step-2-듀얼-톤-엑서사이즈-두-기술의-조화-with-39어우oh39)
       
   -  <p>[Step 3. 성대 내전 연습]<p>
 
-      - [연습 1. with 'sigh'](type3.md#step-3-편안하고-자연스러운-발성을-위한-한숨-연습법-with-39한숨39)
+      - [연습 1. with 'sigh'](type3.md#step-3-편안하고-자연스러운-발성을-위한-한숨-연습법-with-39한숨sign39)
       - [연습 2. with 'vuh'](type3.md#step-3-호흡과-성대-링크-해제-연습-with-39vuh39)
-      - [연습 3. with '법:bup'](type3.md#step-3-입술의-저항을-활용한-연습법-with-39beoup39)
-      - [연습 4. with '위:wi'](type3.md#step-3-vocal-fry와-가성을-결합한-고음-연습법-with-39wi39)
+      - [연습 3. with '법:bup'](type3.md#step-3-입술의-저항을-활용한-연습법-with-39법bup39)
+      - [연습 4. with '아:a'](type3.md#step-3-얇은-성대-조절-with-39아a39)
+      - [연습 5. with '위:wi'](type3.md#step-3-vocal-fry와-가성을-결합한-고음-연습법-with-39위wi39)
   
   - <p>[Step 4. 뉴트럴 밸런스]<p>
 
-      - [연습 1. with '응:-ng'](type3.md#step-4-삼킴-근육의-긴장을-줄여주는-허밍-연습법-with-39ung39)
-      - [연습 2. with '험:hum'](type3.md#step-4-mum-발음이-어려울-때-간단한-대체-발성-연습법-with-39hum39)
-      - [연습 3. with '어:uh'](type3.md#step-4-밝음과-어두움-사이로-뉴트럴-보이스-연습-with-39uh39)
+      - [연습 1. with '응:-ng'](type3.md#step-4-삼킴-근육의-긴장을-줄여주는-허밍-연습법-with-39응-ng39)
+      - [연습 2. with '험:hum'](type3.md#step-4-mum-발음이-어려울-때-간단한-대체-발성-연습법-with-39험hum39)
+      - [연습 3. with '어:uh'](type3.md#step-4-밝음과-어두움-사이로-뉴트럴-보이스-연습-with-39어uh39)
 
 - 🛠️ Type 4. 과소기능형 워크플로우
   -  <p>[Step 1. 호흡 조절]<p>
