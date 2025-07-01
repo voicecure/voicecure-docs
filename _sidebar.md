@@ -132,37 +132,37 @@
   -  <p>[Step 1. 기초 연결 연습]<p>
 
       - [·기초 연결 연습](type5.md#step-1-기초-연결-연습)
-      - [연습 1. with 'fi'](type5.md#조이거나-무거움을-줄이는-발성-연습법-with-39fwi39)
+      - [연습 1. with 'fi'](type5.md#조이거나-무거움을-줄이는-발성-연습법-with-39fi39)
       - [연습 2. with 'foo'](type5.md#목이-조이는-문제-해결을-위한-발성-연습법-with-39foo39)
-      - [연습 3. with '구:goo'](type5.md#저음과-고음을-자연스럽게-연결하는-연습법-with-39goo39)
-      - [연습 4. with '기:gi'](type5.md#저음과-고음을-자연스럽게-연결하는-연습법-with-39gi39)
-      - [연습 5. with '위:wi'](type5.md#vocal-fry와-가성을-결합한-고음-연습법-with-39wi39)
-      - [연습 6. with '워:wuh'](type5.md#정교한-발성-감각을-위한-휘슬-보이스-연습-with-39wuh39)
+      - [연습 3. with '구:goo'](type5.md#저음과-고음을-자연스럽게-연결하는-연습법-with-39구goo39)
+      - [연습 4. with '기:gi'](type5.md#저음과-고음을-자연스럽게-연결하는-연습법-with-39기gi39)
+      - [연습 5. with '위:wi'](type5.md#vocal-fry와-가성을-결합한-고음-연습법-with-39위wi39)
+      - [연습 6. with '워:wuh'](type5.md#정교한-발성-감각을-위한-휘슬-보이스-연습-with-39워wuh39)
 
   -  <p>[Step 2. 성대 내전과 저항 연습]<p>
 
       - [·성대 내전과 저항 연습](type5.md#step-2-성대-내전과-저항-연습)
-      - [연습 1. with '국:goog'](type5.md#성대-스트레칭과-저항-감각-연습법-with-39goog39)
-      - [연습 2. with '어:uh'](type5.md#강한-성대-저항-연습-with-39uh39)
-      - [연습 3. with '법:bup'](type5.md#입술의-저항을-활용한-연습법-with-39beoup39)
-      - [연습 4. with '아:a'](type5.md#얇은-성대-조절-연습-with-39a39)
-      - [연습 5. with '걱:gug'](type5.md#헤비믹스-벨팅-연습법-with-39gug39)
+      - [연습 1. with '국:goog'](type5.md#성대-스트레칭과-저항-감각-연습법-with-39국goog39)
+      - [연습 2. with '어:uh'](type5.md#강한-성대-저항-연습-with-39어uh39)
+      - [연습 3. with '법:bup'](type5.md#입술의-저항을-활용한-연습법-with-39법bup39)
+      - [연습 4. with '아:a'](type5.md#얇은-성대-조절-연습-with-39아a39)
+      - [연습 5. with '걱:gug'](type5.md#헤비믹스-벨팅-연습법-with-39걱gug39)
 
   -  <p>[Step 3. 성도 저항과 밝은 음색 연습]<p>
 
       - [·성도 저항과 밝은 음색 연습](type5.md#step-3-성도-저항과-밝은-음색-연습)
-      - [연습 1. with '미야:miya'](type5.md#성대-스트레칭과-얇은-소리-연습법-with-39miya39)
-      - [연습 2. with '깩:gek'](type5.md#편한-고음을-위한-엣지-연습법-with-39gyaek39)
-      - [연습 3. with '빱:bap'](type5.md#무거운-습관을-벗어나기-위한-밝은-소리-연습법-with-39bbap39)
-      - [연습 4. with '어우:oh'](type5.md#듀얼-톤-엑서사이즈-두-기술의-조화-with-39eow39)
+      - [연습 1. with '미야:miya'](type5.md#성대-스트레칭과-얇은-소리-연습법-with-39미야miya39)
+      - [연습 2. with '깩:gek'](type5.md#편한-고음을-위한-엣지-연습법-with-39깩gek39)
+      - [연습 3. with '빱:bap'](type5.md#무거운-습관을-벗어나기-위한-밝은-소리-연습법-with-39빱bap39)
+      - [연습 4. with '어우:oh'](type5.md#듀얼-톤-엑서사이즈-두-기술의-조화-with-39어우oh39)
 
   -  <p>[Step 4. 뉴트럴 밸런스]<p>
 
       - [·뉴트럴 밸런스](type5.md#step-4-뉴트럴-밸런스)
-      - [연습 1. with '응:-ng'](type5.md#삼킴-근육의-긴장을-줄여주는-허밍-연습법-with-39ung39)
-      - [연습 2. with '험:hum'](type5.md#mum-발음이-어려울-때-간단한-대체-발성-연습법-with-39hum39)
-      - [연습 3. with '멈:mum'](type5.md#소리의-어둠과-밝음의-조화-neutral-exercise-with-39mum39)
-      - [연습 4. with '어:uh'](type5.md#밝음과-어두움-사이로-뉴트럴-보이스-연습-with-39uh39)
+      - [연습 1. with '응:-ng'](type5.md#삼킴-근육의-긴장을-줄여주는-허밍-연습법-with-39-ng39)
+      - [연습 2. with '험:hum'](type5.md#mum-발음이-어려울-때-간단한-대체-발성-연습법-with-39험hum39)
+      - [연습 3. with '멈:mum'](type5.md#소리의-어둠과-밝음의-조화-neutral-exercise-with-39멈mum39)
+      - [연습 4. with '어:uh'](type5.md#밝음과-어두움-사이로-뉴트럴-보이스-연습-with-39어uh39)
 
   -  <p>[Step 5. 모음 전환 연습]<p>
 
