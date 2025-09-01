@@ -6,6 +6,8 @@
   - [- Source–Filter Theory](vcsystem.md#sourcefilter-theory-기초-개념)
   - [- Power–Source–Valve Model](vcsystem.md#powersourcevalve-model-보이스큐어의-프레임)
   - [- 발성 연습은 무엇을 위한 걸까요?](vcsystem.md#발성-연습은-무엇을-위한-걸까요)
+  - [- 위상차 = 결과](vcsystem.md#위상차--결과)
+  - [- 위상차를 바꾸는 요인](vcsystem.md#위상차를-바꾸는-요인) 
   - [2-1. 워크플로우란?](vcsystem.md#_2-1-워크플로우란)
   - [2-2. 왜 기능별로 나누어 연습하나요?](vcsystem.md#_2-2-왜-기능별로-나누어-연습하나요)
   - [2-3. 연습할 때 '어디에' 집중해야 할까요?](vcsystem.md#_2-3-연습할-때-어디에-집중해야-할까요-감각의-초점focus-of-attention) 
