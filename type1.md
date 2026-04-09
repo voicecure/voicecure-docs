@@ -49,7 +49,7 @@
 
 ---
 
-### <span style="color:#f4c66c">Step 2. 입술을 활용한 연습법 with '법:Bup'</span>
+### <span style="color:#f4c66c">Step 2. 입술의 저항을 활용한 연습법 with '법:Bup'</span>
 
 '법:Bup' 연습은 입술을 닫았다가 떼는 동작으로  
 공기의 흐름을 일시적으로 잡아주어 호흡에 의존하여 소리 치지 않도록 도와주는 연습입니다.  
