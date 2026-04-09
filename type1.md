@@ -27,7 +27,7 @@
 
 ---
 
-### <span style="color:#f4c66c">Step 2. 저항 연습 – with '어:uh'</span>
+### <span style="color:#f4c66c">Step 2. 강한 저항 연습 – with '어:uh'</span>
 
 호흡 의존형 학습자가 고음에서 호흡을 과하게 밀어내거나 소리를 지르는 이유는,  
 소리의 입구에 해당하는 밸브가 느슨하여 호흡이 밖으로 낭비되기 때문입니다.  
