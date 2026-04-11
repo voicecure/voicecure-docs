@@ -110,7 +110,7 @@
 ---
 
 
-### <span style="color:#f4c66c">Step1.1 호흡의 흐름 연습 – with ‘하:ha’</span>
+### <span style="color:#f4c66c">Step1-1 호흡의 흐름 연습 – with ‘하:ha’</span>
 
 고음을 낼 때 호흡을 목으로 과도하게 붙잡고 밀어내는 습관은,   
 발성을 무겁게 만들고 불필요한 긴장을 유발합니다.  
