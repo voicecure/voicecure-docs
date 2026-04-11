@@ -154,7 +154,7 @@
 
 ---
 
-### <span style="color:#f4c66c">Step 1-2. Vocal Fry와 가성을 결합한 고음 연습법 – with '위:wi'</span>
+### <span style="color:#f4c66c">Step 1-2. Vocal Fry와 가성을 연결한 고음 연습법 – with '위:wi'</span>
   
 앞선 ‘아:a’ 연습에서는  
 무겁지 않게, 밝고 얇은 소리를 유지하는 감각을 익혔습니다.  
