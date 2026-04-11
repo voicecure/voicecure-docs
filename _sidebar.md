@@ -24,15 +24,15 @@
 - 🛠️ Type 1. 호흡 의존형 워크플로우
   -  <p>[Step 1. 호흡 조절 연습 (Power)]<p>
   
-   - [연습 1. 호흡 조절 연습](type1.md#step-1-호흡-조절-연습)
+    - [연습 1. 호흡 조절 연습](type1.md#step-1-호흡-조절-연습)
 
   -  <p>[Step 2. 소리의 연결과 저항 (Valve1)]<p>
     
-   - [연습 1. with '어:uh'](type1.md#step-2-강한-저항-연습-with-39어uh39)
-   - [연습 2. with '법;bup'](type1.md#step-2-입술의-저항을-활용한-연습법-with-39법bup39)
-   - [연습 3. with '국:goog'](type1.md#step-2-성대-스트레칭과-저항-감각-연습법-with-39국goog39)
-   - [연습 4. with '아:a'](type1.md#step-2-얇은-소리-연습-with-39아a39)
-   - [연습 4. with '워:wuh'](type1.md#step-2-정교한-발성-감각을-위한-휘슬-보이스-연습-with-39워wuh39)
+    - [연습 1. with '어:uh'](type1.md#step-2-강한-저항-연습-with-39어uh39)
+    - [연습 2. with '법;bup'](type1.md#step-2-입술의-저항을-활용한-연습법-with-39법bup39)
+    - [연습 3. with '국:goog'](type1.md#step-2-성대-스트레칭과-저항-감각-연습법-with-39국goog39)
+    - [연습 4. with '아:a'](type1.md#step-2-얇은-소리-연습-with-39아a39)
+    - [연습 4. with '워:wuh'](type1.md#step-2-정교한-발성-감각을-위한-휘슬-보이스-연습-with-39워wuh39)
   
   - <p>[Step 3. 성도 조절 (Valve2)]<p>
     
