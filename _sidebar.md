@@ -58,7 +58,7 @@
     - [연습 2. with 'fi'](type2.md#step-1-1-조이거나-무거움을-줄이는-발성-연습법-with-39fi39)
     - [연습 3. with '구:goo'](type2.md#step-1-1-저음과-고음을-자연스럽게-연결하는-연습법-with-39구goo39)
     - [연습 3. with '기:gi'](type2.md#step-1-1-저음과-고음을-자연스럽게-연결하는-연습법-with-39기gi39)
-    - [연습 4. with '하:ha'](type2.md#sstep11-호흡의-흐름-연습-with-하ha)
+    - [연습 4. with '하:ha'](type2.md#step1-1-호흡의-흐름-연습-with-하ha)
       
   -  <p>[Step 1-2. 소리의 연결과 저항 (Valve1)]<p>
 
