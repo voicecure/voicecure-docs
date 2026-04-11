@@ -130,7 +130,7 @@
 
 ---
 
-### <span style="color:#f4c66c">Step 1-2. 밝은 소리 연습 – with '아:a'</span>
+### <span style="color:#f4c66c">Step 1-2. 밝고 얇은 소리 연습 – with '아:a'</span>
   
 내후두근 의존형의 발성에서는  
 저음에서의 음색을 일정하게 유지하려는 습관 때문에   
@@ -218,7 +218,7 @@
 
 ---
 
-### <span style="color:#f4c66c">Step 2. 성대 스트레칭과 얇은 소리 연습법 – with '미야:miya'</span>
+### <span style="color:#f4c66c">Step 2. 예리하고 얇은 소리 연습법 – with '미야:miya'</span>
   
 
 앞선 Step 1에서는 내후두근을 과도하게 의존하여 소리가 무거워지지 않도록 연습했습니다.  
@@ -344,7 +344,7 @@
 
 ---
 
-### <span style="color:#f4c66c">Step 3. 턱 밑 근육의 긴장을 줄이기 위한 연습 – with '응:-ng'</span>
+### <span style="color:#f4c66c">Step 3. 삼킴 근육의 긴장을 줄이기 위한 연습 – with '응:-ng'</span>
   
 앞선 허밍 연습에서 목이 조이거나 불편한 느낌이 있었다면,  
 삼킴에 관여하는 근육들이 과도하게 개입하고 있을 가능성이 있습니다.  
