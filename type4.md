@@ -114,7 +114,7 @@
   
   ---
   
-### <span style="color:#f4c66c">Step 2. 얇은 소리 조절 with '아:a'</span>
+### <span style="color:#f4c66c">Step 2. 밝고 얇은 소리 연습 with '아:a'</span>
   
 앞선 ‘국:goog’ 연습에서는  
 소리가 얇게 조절되지 않는 상태에서 고음을 내려 할 때,  
@@ -163,7 +163,7 @@
   
   ---
   
-### <span style="color:#f4c66c">Step 3. 성대 스트레칭과 밝은 소리 연습법 With '미야:Miya'</span>
+### <span style="color:#f4c66c">Step 3. • 예리하고 얇은 소리 연결 연습 With '미야:Miya'</span>
 
 과소기능형은 호흡이나 성대 내전뿐만 아니라,  
 고음을 내기 위한 소리의 얇은 조절 능력 자체가 부족한 경우가 많습니다.  
@@ -285,7 +285,7 @@
     
   ---
   
-### <span style="color:#f4c66c">Step 4. 소리의 어둠과 밝음의 조화 Neutral Exercise With '멈:mum'</span>
+### <span style="color:#f4c66c">Step 4. 소리의 어두움과 밝음의 조화 Neutral Exercise With '멈:mum'</span>
 
 과소기능형 학습자는 발성 시 기능 자체의 사용이 부족해,  
 특정한 발음이나 음색에만 의존해 소리를 내는 경향이 있습니다.  
