@@ -26,7 +26,7 @@
   
    - [연습 1. 호흡 조절 연습](type1.md#step-1-호흡-조절-연습)
 
-  - <p>[Step 2. 소리의 연결과 저항 (Valve1)]<p>
+  -  <p>[Step 2. 소리의 연결과 저항 (Valve1)]<p>
     
    - [연습 1. with '어:uh'](type1.md#step-2-강한-저항-연습-with-39어uh39)
    - [연습 2. with '법;bup'](type1.md#step-2-입술의-저항을-활용한-연습법-with-39법bup39)
