@@ -218,7 +218,7 @@
 
 ---
 
-### <span style="color:#f4c66c">Step 2. 예리하고 얇은 소리 연습법 – with '미야:miya'</span>
+### <span style="color:#f4c66c">Step 2. 예리하고 얇은 소리 연습 – with '미야:miya'</span>
   
 
 앞선 Step 1에서는 내후두근을 과도하게 의존하여 소리가 무거워지지 않도록 연습했습니다.  
