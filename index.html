@@ -1,266 +1,8 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <link rel="stylesheet" href="style.css">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>VOICECURE WORKFLOW</title>
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css" />
-  <style>
-    /* ✅ 인증 전용 레이아웃 */
-    #auth-container {
-      position: fixed;
-      top: 0; left: 0; width: 100vw; height: 100vh;
-      background-color: #111111;
-      display: flex; justify-content: center; align-items: center;
-      z-index: 999999;
-    }
-    .auth-card {
-      background: #1e1e1e;
-      padding: 40px;
-      border-radius: 20px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-      text-align: center;
-      max-width: 380px;
-      width: 90%;
-      border: 1px solid #333333;
-    }
-    .auth-card-logo {
-      width: 60px; height: 60px;
-      margin: 0 auto 12px auto;
-      background-image: url('COLOR2.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-    }
-    .auth-btn {
-      background-color: #3f51b5;
-      color: #ffffff;
-      border: none;
-      padding: 14px 20px;
-      font-size: 15px;
-      font-weight: 700;
-      border-radius: 12px;
-      cursor: pointer;
-      margin-top: 20px;
-      width: 100%;
-      transition: background-color 0.2s ease;
-    }
-    .auth-btn:hover { background-color: #2e3b87; }
-
-    /* ✅ 수환 님 원본 다크 테마 디자인 유지 */
-    body {
-      background-color: #1e1e1e;
-      color: #f0f0f0;
-    }
-
-    .markdown-section {
-      color: #f0f0f0;
-      padding: 40px !important;
-    }
-
-    .markdown-section h1,
-    .markdown-section h1 a,
-    .markdown-section h1 > a,
-    .markdown-section h1 a:visited,
-    .markdown-section h1 a:hover,
-    .markdown-section h1 a:active {
-      color: #4FC1FF !important;
-    }
-
-    .markdown-section h2,
-    .markdown-section h2 a,
-    .markdown-section h2 > a,
-    .markdown-section h2 a:visited,
-    .markdown-section h2 a:hover,
-    .markdown-section h2 a:active {
-      color: #f4c66c !important;
-    }
-
-    .markdown-section h3,
-    .markdown-section h3 a,
-    .markdown-section h3 > a,
-    .markdown-section h3 a:visited,
-    .markdown-section h3 a:hover,
-    .markdown-section h3 a:active {
-      color: #4FC1FF !important;
-    }
-
-    .markdown-section h4,
-    .markdown-section h4 a,
-    .markdown-section h4 > a,
-    .markdown-section h4 a:visited,
-    .markdown-section h4 a:hover,
-    .markdown-section h4 a:active {
-      color: #f0f0f0 !important;
-    }
-        
-    .markdown-section strong {
-      color: #ffffff;
-    }
-
-    .sidebar {
-      background-color: #111 !important;
-      width: 360px !important;
-      overflow-x: auto;
-    }
-
-    .sidebar ul li a {
-      color: #cccccc !important;
-      overflow-wrap: anywhere;
-      font-size: 14px !important;
-    }
-
-    .sidebar ul li.active > a {
-      color: #ffffff !important;
-      font-weight: bold;
-    }
-
-    .sidebar .app-sub-sidebar {
-      padding-left: 10px !important;
-    }
-    .sidebar .app-sub-sidebar li {
-      margin-left: 10px !important;
-    }
-
-    .sidebar .app-sub-sidebar > li > a {
-      color: #ffffff !important;
-      font-size: 14px !important;
-      font-weight: 500;
-    }
-
-    .sidebar .app-sub-sidebar > li:not(:has(a)) {
-      color: #cccccc !important;
-      font-size: 14px;
-      font-weight: 500;
-    }
-
-    .sidebar li > p {
-      color: #f4c66c !important;
-      font-weight: 700;
-      font-size: 14px;
-      margin: 6px 0;
-    }
-
-    .sidebar-app-name {
-      font-size: 18px !important;
-      font-weight: 700 !important;
-      color: #ffffff !important;
-      padding: 12px 8px !important;
-      background-color: #111 !important;
-      text-align: center;
-      border-bottom: 1px solid #333;
-    }
-
-    .sidebar-app-name::before {
-      content: '';
-      display: block;
-      background-image: url('COLOR2.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-      width: 60px;
-      height: 60px;
-      margin: 0 auto 8px auto;
-    }
-
-    .markdown-section .workflow-title {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      margin-bottom: 1.5rem;
-      font-size: 1.5em;
-      font-weight: bold;
-      color: #ffffff;
-      border-left: 5px solid #f4c66c;
-      padding-left: 12px;
-    }
-
-    .markdown-section .workflow-title img {
-      height: 1.4em;
-      display: inline-block;
-    }
-
-    @media (max-width: 768px) {
-      .sidebar {
-        width: 240px !important;
-        border-right: none !important;
-      }
-
-      .sidebar-app-name {
-        font-size: 16px !important;
-        padding: 8px !important;
-      }
-
-      .sidebar-app-name::before {
-        width: 50px;
-        height: 50px;
-        margin-bottom: 4px;
-      }
-
-      .markdown-section {
-        padding: 16px 20px !important;
-      }
-
-      .content {
-        margin-left: 0 !important;
-      }
-    }
-
-    .floating-logo {
-      position: fixed;
-      bottom: 24px;
-      right: 24px;
-      z-index: 999;
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      background-color: #1e1e1e;
-      box-shadow: 0 0 10px rgba(0,0,0,0.5);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-    }
-
-    .floating-logo img {
-      width: 28px;
-      height: 28px;
-      object-fit: contain;
-    }
-  </style>
-</head>
-
-<body>
-
-  <!-- 1. 구글 인증 창 (기본 활성화) -->
-  <div id="auth-container">
-    <div class="auth-card">
-      <div class="auth-card-logo"></div>
-      <h3 style="margin: 0 0 6px 0; font-weight:700; color:#ffffff;">VOICECURE</h3>
-      <p style="color: #a0a0a0; font-size: 13px; margin: 0 0 20px 0;">워크플로우 시스템 보안 인증</p>
-      
-      <button id="btn-login" class="auth-btn" onclick="loginWithGoogle()">
-        Google 계정으로 로그인
-      </button>
-      
-      <p id="auth-error" style="color: #ff6b6b; font-size: 13px; margin-top: 15px; display: none; font-weight: 500;"></p>
-    </div>
-  </div>
-
-  <!-- 2. 문서 컨테이너 (인증 전까지 비어있음) -->
-  <div id="main-docs" style="display:none;">
-    <div id="app"></div>
-    <a href="https://voicecurepro.com" target="_blank" class="floating-logo">
-      <img src="COLOR2.png" alt="VoiceCure Home" />
-    </a>
-  </div>
-
-  <script type="module">
+<script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
     import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
 
-    // ★ 단일화된 올바른 키 구조
+    // Firebase 콘솔에서 그대로 복사해 온 원본 키값
     const firebaseConfig = {
       apiKey: "AIzaSyAITzRfpj8xzQDgIYYcQ8T2q-Q37u29Z_M",
       authDomain: "voicecure-workflow.firebaseapp.com",
@@ -272,9 +14,8 @@
 
     const app = initializeApp(firebaseConfig);
     const auth = getAuth(app);
-    const provider = new GoogleAuthProvider(); // ★ 누락되었던 인증 제공자 선언 보완
+    const provider = new GoogleAuthProvider();
 
-    // ★ [접근 허용 구글 이메일 명단]
     const ALLOWED_EMAILS = [
       "suhwanjeongvc@gmail.com",
       "voicecure1@gmail.com"
@@ -282,18 +23,19 @@
 
     window.loginWithGoogle = async function() {
       const errBox = document.getElementById('auth-error');
-      errBox.style.display = 'none';
+      if (errBox) errBox.style.display = 'none';
       try {
         await signInWithPopup(auth, provider);
       } catch (error) {
-        errBox.innerText = "로그인 실패: " + error.message;
-        errBox.style.display = 'block';
+        if (errBox) {
+          errBox.innerText = "로그인 실패: " + error.message;
+          errBox.style.display = 'block';
+        }
       }
     };
 
     let isDocsifyLoaded = false;
 
-    // 인증 통과 시에만 Docsify 엔진을 실시간으로 주입하여 렌더링
     function loadDocsifyEngine() {
       if (isDocsifyLoaded) return;
       isDocsifyLoaded = true;
@@ -334,20 +76,19 @@
       if (user) {
         const userEmail = user.email.toLowerCase();
         if (ALLOWED_EMAILS.includes(userEmail)) {
-          authContainer.style.display = 'none';
-          mainDocs.style.display = 'block';
+          if (authContainer) authContainer.style.display = 'none';
+          if (mainDocs) mainDocs.style.display = 'block';
           loadDocsifyEngine();
         } else {
           signOut(auth);
-          errBox.innerText = `[접근 거부] ${userEmail} 계정은 권한이 없습니다.`;
-          errBox.style.display = 'block';
+          if (errBox) {
+            errBox.innerText = `[접근 거부] ${userEmail} 계정은 권한이 없습니다.`;
+            errBox.style.display = 'block';
+          }
         }
       } else {
-        authContainer.style.display = 'flex';
-        mainDocs.style.display = 'none';
+        if (authContainer) authContainer.style.display = 'flex';
+        if (mainDocs) mainDocs.style.display = 'none';
       }
     });
   </script>
-
-</body>
-</html>
