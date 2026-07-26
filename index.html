@@ -7,8 +7,8 @@
   <title>VOICECURE WORKFLOW</title>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css" />
   <style>
-    /* ✅ 인증 전용 레이아웃 */
-    #auth-container {
+    /* ✅ 인증 및 동의 모달 레이아웃 */
+    #auth-container, #consent-container {
       position: fixed;
       top: 0; left: 0; width: 100vw; height: 100vh;
       background-color: #111111;
@@ -17,16 +17,16 @@
     }
     .auth-card {
       background: #1e1e1e;
-      padding: 40px;
+      padding: 35px;
       border-radius: 20px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.5);
       text-align: center;
-      max-width: 380px;
+      max-width: 420px;
       width: 90%;
       border: 1px solid #333333;
     }
     .auth-card-logo {
-      width: 60px; height: 60px;
+      width: 50px; height: 50px;
       margin: 0 auto 12px auto;
       background-image: url('COLOR2.png');
       background-size: contain;
@@ -42,214 +42,74 @@
       font-weight: 700;
       border-radius: 12px;
       cursor: pointer;
-      margin-top: 20px;
+      margin-top: 15px;
       width: 100%;
       transition: background-color 0.2s ease;
     }
     .auth-btn:hover { background-color: #2e3b87; }
 
-    /* ✅ 수환 님 원본 다크 테마 디자인 */
-    body {
-      background-color: #1e1e1e;
-      color: #f0f0f0;
-      margin: 0;
+    .terms-box {
+      background-color: #141414;
+      border: 1px solid #333333;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: left;
+      font-size: 12px;
+      color: #cccccc;
+      line-height: 1.6;
+      max-height: 160px;
+      overflow-y: auto;
+      margin: 15px 0;
     }
 
-    .markdown-section {
-      color: #f0f0f0;
-      padding: 40px !important;
-    }
-
-    .markdown-section h1,
-    .markdown-section h1 a,
-    .markdown-section h1 > a,
-    .markdown-section h1 a:visited,
-    .markdown-section h1 a:hover,
-    .markdown-section h1 a:active {
-      color: #4FC1FF !important;
-    }
-
-    .markdown-section h2,
-    .markdown-section h2 a,
-    .markdown-section h2 > a,
-    .markdown-section h2 a:visited,
-    .markdown-section h2 a:hover,
-    .markdown-section h2 a:active {
-      color: #f4c66c !important;
-    }
-
-    .markdown-section h3,
-    .markdown-section h3 a,
-    .markdown-section h3 > a,
-    .markdown-section h3 a:visited,
-    .markdown-section h3 a:hover,
-    .markdown-section h3 a:active {
-      color: #4FC1FF !important;
-    }
-
-    .markdown-section h4,
-    .markdown-section h4 a,
-    .markdown-section h4 > a,
-    .markdown-section h4 a:visited,
-    .markdown-section h4 a:hover,
-    .markdown-section h4 a:active {
-      color: #f0f0f0 !important;
-    }
-        
-    .markdown-section strong {
-      color: #ffffff;
-    }
-
-    .sidebar {
-      background-color: #111 !important;
-      width: 360px !important;
-      overflow-x: auto;
-    }
-
-    .sidebar ul li a {
-      color: #cccccc !important;
-      overflow-wrap: anywhere;
-      font-size: 14px !important;
-    }
-
-    .sidebar ul li.active > a {
-      color: #ffffff !important;
-      font-weight: bold;
-    }
-
-    .sidebar .app-sub-sidebar {
-      padding-left: 10px !important;
-    }
-    .sidebar .app-sub-sidebar li {
-      margin-left: 10px !important;
-    }
-
-    .sidebar .app-sub-sidebar > li > a {
-      color: #ffffff !important;
-      font-size: 14px !important;
-      font-weight: 500;
-    }
-
-    .sidebar .app-sub-sidebar > li:not(:has(a)) {
-      color: #cccccc !important;
-      font-size: 14px;
-      font-weight: 500;
-    }
-
-    .sidebar li > p {
-      color: #f4c66c !important;
-      font-weight: 700;
-      font-size: 14px;
-      margin: 6px 0;
-    }
-
-    .sidebar-app-name {
-      font-size: 18px !important;
-      font-weight: 700 !important;
-      color: #ffffff !important;
-      padding: 12px 8px !important;
-      background-color: #111 !important;
-      text-align: center;
-      border-bottom: 1px solid #333;
-    }
-
-    .sidebar-app-name::before {
-      content: '';
-      display: block;
-      background-image: url('COLOR2.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-      width: 60px;
-      height: 60px;
-      margin: 0 auto 8px auto;
-    }
-
-    .markdown-section .workflow-title {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      margin-bottom: 1.5rem;
-      font-size: 1.5em;
-      font-weight: bold;
-      color: #ffffff;
-      border-left: 5px solid #f4c66c;
-      padding-left: 12px;
-    }
-
-    .markdown-section .workflow-title img {
-      height: 1.4em;
-      display: inline-block;
-    }
-
-    @media (max-width: 768px) {
-      .sidebar {
-        width: 240px !important;
-        border-right: none !important;
-      }
-
-      .sidebar-app-name {
-        font-size: 16px !important;
-        padding: 8px !important;
-      }
-
-      .sidebar-app-name::before {
-        width: 50px;
-        height: 50px;
-        margin-bottom: 4px;
-      }
-
-      .markdown-section {
-        padding: 16px 20px !important;
-      }
-
-      .content {
-        margin-left: 0 !important;
-      }
-    }
-
-    .floating-logo {
-      position: fixed;
-      bottom: 24px;
-      right: 24px;
-      z-index: 999;
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      background-color: #1e1e1e;
-      box-shadow: 0 0 10px rgba(0,0,0,0.5);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-    }
-
-    .floating-logo img {
-      width: 28px;
-      height: 28px;
-      object-fit: contain;
-    }
+    body { background-color: #1e1e1e; color: #f0f0f0; margin: 0; }
+    .markdown-section { color: #f0f0f0; padding: 40px !important; }
+    .markdown-section h1, .markdown-section h1 a { color: #4FC1FF !important; }
+    .markdown-section h2, .markdown-section h2 a { color: #f4c66c !important; }
+    .markdown-section h3, .markdown-section h3 a { color: #4FC1FF !important; }
+    .markdown-section h4, .markdown-section h4 a { color: #f0f0f0 !important; }
+    .markdown-section strong { color: #ffffff; }
+    .sidebar { background-color: #111 !important; width: 360px !important; overflow-x: auto; }
+    .sidebar ul li a { color: #cccccc !important; font-size: 14px !important; }
+    .sidebar ul li.active > a { color: #ffffff !important; font-weight: bold; }
+    .sidebar-app-name { font-size: 18px !important; font-weight: 700 !important; color: #ffffff !important; padding: 12px 8px !important; background-color: #111 !important; text-align: center; border-bottom: 1px solid #333; }
+    .sidebar-app-name::before { content: ''; display: block; background-image: url('COLOR2.png'); background-size: contain; background-repeat: no-repeat; background-position: center; width: 60px; height: 60px; margin: 0 auto 8px auto; }
+    .floating-logo { position: fixed; bottom: 24px; right: 24px; z-index: 999; width: 48px; height: 48px; border-radius: 50%; background-color: #1e1e1e; box-shadow: 0 0 10px rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; cursor: pointer; }
+    .floating-logo img { width: 28px; height: 28px; object-fit: contain; }
   </style>
 </head>
 
 <body>
 
-  <!-- 1. 구글 인증 창 (기본 활성화) -->
+  <!-- 1. 구글 인증 모달 -->
   <div id="auth-container">
     <div class="auth-card">
       <div class="auth-card-logo"></div>
       <h3 style="margin: 0 0 6px 0; font-weight:700; color:#ffffff;">VOICECURE</h3>
       <p style="color: #a0a0a0; font-size: 13px; margin: 0 0 20px 0;">워크플로우 시스템 보안 인증</p>
-      
-      <button id="btn-login" class="auth-btn" onclick="loginWithGoogle()">
-        Google 계정으로 로그인
-      </button>
-      
+      <button id="btn-login" class="auth-btn" onclick="loginWithGoogle()">Google 계정으로 로그인</button>
       <p id="auth-error" style="color: #ff6b6b; font-size: 13px; margin-top: 15px; display: none; font-weight: 500;"></p>
     </div>
   </div>
 
-  <!-- 2. 문서 컨테이너 (인증 전까지 비어있음) -->
+  <!-- 2. 디지털 재화 약관 동의 모달 -->
+  <div id="consent-container" style="display:none;">
+    <div class="auth-card">
+      <div class="auth-card-logo"></div>
+      <h4 style="margin: 0 0 6px 0; font-weight:700; color:#f4c66c;">디지털 재화 열람 및 환불 규정 동의</h4>
+      
+      <div class="terms-box">
+        본 워크플로우(디지털 자료)는 즉시 복제 및 소장이 가능한 <strong>디지털 재화</strong>입니다.<br><br>
+        1. 워크플로우 문서를 열람하는 즉시 디지털 재화의 이용이 개시된 것으로 간주됩니다.<br>
+        2. 열람 후 향후 수강료 환불 요청 시, 해당 워크플로우 열람 이력에 따른 차감 규정이 적용됩니다.<br>
+        3. 동의 시 구글 계정 정보와 동의 일시가 보안 시스템에 기록됩니다.
+      </div>
+
+      <button class="auth-btn" onclick="submitConsentAndProceed()">동의하고 워크플로우 열람하기</button>
+    </div>
+  </div>
+
+  <!-- 3. 문서 컨테이너 -->
   <div id="main-docs" style="display:none;">
     <div id="app"></div>
     <a href="https://voicecurepro.com" target="_blank" class="floating-logo">
@@ -261,7 +121,6 @@
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
     import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
 
-    // ★ 캡처본 정밀 추출 키값 (QBT2q 정제 완료)
     const firebaseConfig = {
       apiKey: "AIzaSyAITzRfpj8xzQDgIYYcQBT2q-Q37u29Z_M",
       authDomain: "voicecure-workflow.firebaseapp.com",
@@ -272,15 +131,14 @@
       measurementId: "G-26Z9YKE4LX"
     };
 
+    // ★ [발급받으신 앱스 스크립트 WEB APP URL을 넣으세요]
+    const GAS_WEB_APP_URL = "여기에_구글_앱스_스크립트_WEB_APP_URL을_붙여넣으세요";
+
     const app = initializeApp(firebaseConfig);
     const auth = getAuth(app);
     const provider = new GoogleAuthProvider();
 
-    // ★ [접근 허용 구글 이메일 명단]
-    const ALLOWED_EMAILS = [
-      "suhwanjeongvc@gmail.com",
-      "voicecure1@gmail.com"
-    ];
+    let currentUserData = null;
 
     window.loginWithGoogle = async function() {
       const errBox = document.getElementById('auth-error');
@@ -295,18 +153,36 @@
       }
     };
 
-    let isDocsifyLoaded = false;
+    window.submitConsentAndProceed = async function() {
+      if (!currentUserData) return;
 
+      if (GAS_WEB_APP_URL && !GAS_WEB_APP_URL.includes("여기에")) {
+        try {
+          await fetch(GAS_WEB_APP_URL, {
+            method: "POST",
+            mode: "no-cors",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              email: currentUserData.email,
+              name: currentUserData.displayName || "미지정"
+            })
+          });
+        } catch (e) {
+          console.log("시트 기록 실패:", e);
+        }
+      }
+
+      document.getElementById('consent-container').style.display = 'none';
+      document.getElementById('main-docs').style.display = 'block';
+      loadDocsifyEngine();
+    };
+
+    let isDocsifyLoaded = false;
     function loadDocsifyEngine() {
       if (isDocsifyLoaded) return;
       isDocsifyLoaded = true;
 
-      window.$docsify = {
-        name: '',
-        loadSidebar: true,
-        subMaxLevel: 1,
-        basePath: ''
-      };
+      window.$docsify = { name: '', loadSidebar: true, subMaxLevel: 1, basePath: '' };
 
       const scriptDocsify = document.createElement('script');
       scriptDocsify.src = "//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js";
@@ -329,30 +205,44 @@
       document.body.appendChild(scriptDocsify);
     }
 
-    onAuthStateChanged(auth, (user) => {
+    // ★ 실시간 구글 시트 자격 조회
+    onAuthStateChanged(auth, async (user) => {
       const authContainer = document.getElementById('auth-container');
+      const consentContainer = document.getElementById('consent-container');
       const mainDocs = document.getElementById('main-docs');
       const errBox = document.getElementById('auth-error');
 
       if (user) {
         const userEmail = user.email.toLowerCase();
-        if (ALLOWED_EMAILS.includes(userEmail)) {
-          if (authContainer) authContainer.style.display = 'none';
-          if (mainDocs) mainDocs.style.display = 'block';
-          loadDocsifyEngine();
-        } else {
+
+        try {
+          const response = await fetch(`${GAS_WEB_APP_URL}?email=${encodeURIComponent(userEmail)}`);
+          const result = await response.json();
+
+          if (result.allowed) {
+            currentUserData = user;
+            authContainer.style.display = 'none';
+            consentContainer.style.display = 'flex';
+          } else {
+            signOut(auth);
+            if (errBox) {
+              errBox.innerText = `[접근 거부] ${userEmail} 계정은 구매 등록되지 않았습니다.`;
+              errBox.style.display = 'block';
+            }
+          }
+        } catch (e) {
           signOut(auth);
           if (errBox) {
-            errBox.innerText = `[접근 거부] ${userEmail} 계정은 권한이 없습니다.`;
+            errBox.innerText = "자격 확인 서버 통신 에러가 발생했습니다.";
             errBox.style.display = 'block';
           }
         }
       } else {
-        if (authContainer) authContainer.style.display = 'flex';
-        if (mainDocs) mainDocs.style.display = 'none';
+        authContainer.style.display = 'flex';
+        consentContainer.style.display = 'none';
+        mainDocs.style.display = 'none';
       }
     });
   </script>
-
 </body>
 </html>
