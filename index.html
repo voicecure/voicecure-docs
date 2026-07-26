@@ -98,7 +98,7 @@
       <div class="auth-card-logo"></div>
       <h4 style="margin: 0 0 6px 0; font-weight:700; color:#f4c66c;">디지털 재화 열람 및 환불 규정 동의</h4>
       
-<div class="terms-box">
+      <div class="terms-box">
         1. 본 워크플로우 문서를 열람하는 즉시 디지털 재화의 이용이 개시된 것으로 간주됩니다.<br><br>
         2. 열람 후 향후 수강료 환불 요청 시, 해당 워크플로우 열람 이력에 따른 차감 규정이 적용됩니다.
       </div>
@@ -129,8 +129,7 @@
       measurementId: "G-26Z9YKE4LX"
     };
 
-// ★ 통신망 개통이 확인된 백엔드 직통 주소
-const GAS_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxtuxVmTxbaRsHKr-_5s8nc0k3OANROD7wlVZ14H60Zo91SA4edDG9QvK1kd1UYO5eUDg/exec";
+    const GAS_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxtuxVmTxbaRsHKr-_5s8nc0k3OANROD7wlVZ14H60Zo91SA4edDG9QvK1kd1UYO5eUDg/exec";
 
     const app = initializeApp(firebaseConfig);
     const auth = getAuth(app);
@@ -153,6 +152,10 @@ const GAS_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxtuxVmTxbaRsHK
 
     window.submitConsentAndProceed = async function() {
       if (!currentUserData) return;
+
+      const userEmail = currentUserData.email.toLowerCase();
+      // 브라우저 즉시 패스용 기기 기록 저장
+      localStorage.setItem('vc_consented_' + userEmail, 'true');
 
       if (GAS_WEB_APP_URL && !GAS_WEB_APP_URL.includes("여기에")) {
         try {
@@ -203,7 +206,7 @@ const GAS_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxtuxVmTxbaRsHK
       document.body.appendChild(scriptDocsify);
     }
 
-    // ★ 실시간 구글 시트 자격 조회
+    // ★ 실시간 동의 여부 검증 필터
     onAuthStateChanged(auth, async (user) => {
       const authContainer = document.getElementById('auth-container');
       const consentContainer = document.getElementById('consent-container');
@@ -220,7 +223,18 @@ const GAS_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxtuxVmTxbaRsHK
           if (result.allowed) {
             currentUserData = user;
             authContainer.style.display = 'none';
-            consentContainer.style.display = 'flex';
+
+            const localConsented = localStorage.getItem('vc_consented_' + userEmail) === 'true';
+
+            // ★ 시트 기록 또는 브라우저 기록 중 하나라도 동의 이력이 있으면 스킵
+            if (result.consented || localConsented) {
+              consentContainer.style.display = 'none';
+              mainDocs.style.display = 'block';
+              loadDocsifyEngine();
+            } else {
+              // 최초 동의가 필요한 사용자만 모달 표출
+              consentContainer.style.display = 'flex';
+            }
           } else {
             signOut(auth);
             if (errBox) {
