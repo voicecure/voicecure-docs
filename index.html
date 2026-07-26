@@ -7,7 +7,7 @@
   <title>VOICECURE WORKFLOW</title>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css" />
   <style>
-    /* ✅ Firebase 구글 인증 전용 스타일 (다크 테마 디자인 동기화) */
+    /* ✅ 인증 전용 레이아웃 */
     #auth-container {
       position: fixed;
       top: 0; left: 0; width: 100vw; height: 100vh;
@@ -47,11 +47,8 @@
       transition: background-color 0.2s ease;
     }
     .auth-btn:hover { background-color: #2e3b87; }
-    
-    /* 인증 전 본문 및 플로팅 로고 완전 숨김 */
-    #main-docs { display: none; }
 
-    /* ✅ 수환 님의 기존 다크 테마 원본 CSS 스타일에 일체 손대지 않고 보존 */
+    /* ✅ 수환 님 원본 다크 테마 디자인 유지 */
     body {
       background-color: #1e1e1e;
       color: #f0f0f0;
@@ -71,7 +68,6 @@
       color: #4FC1FF !important;
     }
 
-    /* h2 */
     .markdown-section h2,
     .markdown-section h2 a,
     .markdown-section h2 > a,
@@ -81,7 +77,6 @@
       color: #f4c66c !important;
     }
 
-    /* h3 */
     .markdown-section h3,
     .markdown-section h3 a,
     .markdown-section h3 > a,
@@ -91,7 +86,6 @@
       color: #4FC1FF !important;
     }
 
-    /* h4 */
     .markdown-section h4,
     .markdown-section h4 a,
     .markdown-section h4 > a,
@@ -105,27 +99,23 @@
       color: #ffffff;
     }
 
-    /* ✅ 사이드바 전체 설정 */
     .sidebar {
       background-color: #111 !important;
       width: 360px !important;
       overflow-x: auto;
     }
 
-    /* ✅ 사이드바 기본 링크 스타일 */
     .sidebar ul li a {
       color: #cccccc !important;
       overflow-wrap: anywhere;
       font-size: 14px !important;
     }
 
-    /* ✅ 활성화된 링크 (선택된 상태) */
     .sidebar ul li.active > a {
       color: #ffffff !important;
       font-weight: bold;
     }
 
-    /* ✅ 하위 목록 여백 */
     .sidebar .app-sub-sidebar {
       padding-left: 10px !important;
     }
@@ -133,21 +123,18 @@
       margin-left: 10px !important;
     }
 
-    /* ✅ 링크가 있는 항목만 흰색으로 */
     .sidebar .app-sub-sidebar > li > a {
       color: #ffffff !important;
       font-size: 14px !important;
       font-weight: 500;
     }
 
-    /* ✅ Step1, Step2 제목처럼 링크 없는 <li> 항목 밝게 */
     .sidebar .app-sub-sidebar > li:not(:has(a)) {
       color: #cccccc !important;
       font-size: 14px;
       font-weight: 500;
     }
 
-    /* ✅ <p> 태그로 된 제목 스타일 */
     .sidebar li > p {
       color: #f4c66c !important;
       font-weight: 700;
@@ -155,7 +142,6 @@
       margin: 6px 0;
     }
 
-    /* ✅ 사이드바 전용 앱명 + 로고 */
     .sidebar-app-name {
       font-size: 18px !important;
       font-weight: 700 !important;
@@ -195,10 +181,10 @@
       display: inline-block;
     }
 
-    /* ✅ 모바일 최적화 */
     @media (max-width: 768px) {
       .sidebar {
         width: 240px !important;
+        border-right: none !important;
       }
 
       .sidebar-app-name {
@@ -216,16 +202,11 @@
         padding: 16px 20px !important;
       }
 
-      .sidebar {
-        border-right: none !important;
-      }
-
       .content {
         margin-left: 0 !important;
       }
     }
 
-    /* 오른쪽 하단 고정 로고 버튼 */
     .floating-logo {
       position: fixed;
       bottom: 24px;
@@ -240,7 +221,6 @@
       align-items: center;
       justify-content: center;
       cursor: pointer;
-      transition: opacity 0.3s ease;
     }
 
     .floating-logo img {
@@ -253,7 +233,7 @@
 
 <body>
 
-  <!-- 1. 구글 보안 로그인 모달 (인증 전까지 표출) -->
+  <!-- 1. 구글 인증 창 (기본 활성화) -->
   <div id="auth-container">
     <div class="auth-card">
       <div class="auth-card-logo"></div>
@@ -268,21 +248,18 @@
     </div>
   </div>
 
-  <!-- 2. 인증 완료 시에만 노출되는 워크플로우 본문 세션 -->
-  <div id="main-docs">
-    <div id="app">문서를 불러오는 중입니다...</div>
-
+  <!-- 2. 문서 컨테이너 (인증 전까지 비어있음) -->
+  <div id="main-docs" style="display:none;">
+    <div id="app"></div>
     <a href="https://voicecurepro.com" target="_blank" class="floating-logo">
       <img src="COLOR2.png" alt="VoiceCure Home" />
     </a>
   </div>
 
-  <!-- Firebase v10 모듈 시스템 구동 -->
   <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
     import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
 
-    // ★ 수환 님의 Firebase SDK 고유 키 세팅
     const firebaseConfig = {
       apiKey: "AIzaSyAITzRfpj8xzQDgIYYcQ8T2q-Q37u29Z_M",
       authDomain: "voicecure-workflow.firebaseapp.com",
@@ -296,10 +273,10 @@
     const auth = getAuth(app);
     const provider = new GoogleAuthProvider();
 
-    // ★ [접근 허용 구글 이메일 명단] (반드시 소문자로 기입해 주세요)
+    // ★ [접근 허용 구글 이메일 명단]
     const ALLOWED_EMAILS = [
-      "suhwan@gmail.com",   // 수환 님 이메일
-      "voicecure@gmail.com"  // 승인할 코치 이메일 지속 추가
+      "suhwan@gmail.com",
+      "voicecure@gmail.com"
     ];
 
     window.loginWithGoogle = async function() {
@@ -313,7 +290,41 @@
       }
     };
 
-    // 실시간 접속 상태 추적 스크립트
+    let isDocsifyLoaded = false;
+
+    // 인증 통과 시에만 Docsify 엔진을 실시간으로 주입하여 렌더링
+    function loadDocsifyEngine() {
+      if (isDocsifyLoaded) return;
+      isDocsifyLoaded = true;
+
+      window.$docsify = {
+        name: '',
+        loadSidebar: true,
+        subMaxLevel: 1,
+        basePath: ''
+      };
+
+      const scriptDocsify = document.createElement('script');
+      scriptDocsify.src = "//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js";
+      scriptDocsify.onload = () => {
+        const scriptCollapse = document.createElement('script');
+        scriptCollapse.src = "https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js";
+        document.body.appendChild(scriptCollapse);
+
+        const sidebarInterval = setInterval(() => {
+          const sidebar = document.querySelector('.sidebar');
+          if (sidebar && !document.querySelector('.sidebar-app-name')) {
+            const logo = document.createElement('div');
+            logo.className = 'sidebar-app-name';
+            logo.innerText = 'VOICECURE WORKFLOW';
+            sidebar.insertBefore(logo, sidebar.firstChild);
+            clearInterval(sidebarInterval);
+          }
+        }, 100);
+      };
+      document.body.appendChild(scriptDocsify);
+    }
+
     onAuthStateChanged(auth, (user) => {
       const authContainer = document.getElementById('auth-container');
       const mainDocs = document.getElementById('main-docs');
@@ -324,6 +335,7 @@
         if (ALLOWED_EMAILS.includes(userEmail)) {
           authContainer.style.display = 'none';
           mainDocs.style.display = 'block';
+          loadDocsifyEngine(); // ★ 통과한 직후 엔진 가동
         } else {
           signOut(auth);
           errBox.innerText = `[접근 거부] ${userEmail} 계정은 권한이 없습니다.`;
@@ -335,36 +347,6 @@
       }
     });
   </script>
-
-  <!-- Docsify 구동 및 원본 JS 스크립트 -->
-  <script>
-    window.$docsify = {
-      name: '',
-      loadSidebar: true,
-      subMaxLevel: 1,
-      basePath: ''
-    };
-  </script>
-
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-
-  <script>
-    // 사이드바 로고 자동 삽입
-    window.addEventListener('DOMContentLoaded', () => {
-      const sidebarInterval = setInterval(() => {
-        const sidebar = document.querySelector('.sidebar');
-        if (sidebar && !document.querySelector('.sidebar-app-name')) {
-          const logo = document.createElement('div');
-          logo.className = 'sidebar-app-name';
-          logo.innerText = 'VOICECURE WORKFLOW';
-          sidebar.insertBefore(logo, sidebar.firstChild);
-          clearInterval(sidebarInterval);
-        }
-      }, 100);
-    });
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 
 </body>
 </html>
