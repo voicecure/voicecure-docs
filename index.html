@@ -260,8 +260,7 @@
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
     import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
 
-    const firebaseConfig = {
-// ★ 중복을 제거한 깔끔한 원본 키값
+    // ★ 단일화된 올바른 키 구조
     const firebaseConfig = {
       apiKey: "AIzaSyAITzRfpj8xzQDgIYYcQ8T2q-Q37u29Z_M",
       authDomain: "voicecure-workflow.firebaseapp.com",
@@ -273,6 +272,7 @@
 
     const app = initializeApp(firebaseConfig);
     const auth = getAuth(app);
+    const provider = new GoogleAuthProvider(); // ★ 누락되었던 인증 제공자 선언 보완
 
     // ★ [접근 허용 구글 이메일 명단]
     const ALLOWED_EMAILS = [
@@ -336,7 +336,7 @@
         if (ALLOWED_EMAILS.includes(userEmail)) {
           authContainer.style.display = 'none';
           mainDocs.style.display = 'block';
-          loadDocsifyEngine(); // ★ 통과한 직후 엔진 가동
+          loadDocsifyEngine();
         } else {
           signOut(auth);
           errBox.innerText = `[접근 거부] ${userEmail} 계정은 권한이 없습니다.`;
