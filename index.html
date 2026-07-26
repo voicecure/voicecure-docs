@@ -261,7 +261,7 @@
     import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
 
     const firebaseConfig = {
-// 원본 키값 복사본
+// ★ 중복을 제거한 깔끔한 원본 키값
     const firebaseConfig = {
       apiKey: "AIzaSyAITzRfpj8xzQDgIYYcQ8T2q-Q37u29Z_M",
       authDomain: "voicecure-workflow.firebaseapp.com",
@@ -270,16 +270,14 @@
       messagingSenderId: "747600160872",
       appId: "1:747600160872:web:2be50f4afdb5e0de4e73dd"
     };
-    };
 
     const app = initializeApp(firebaseConfig);
     const auth = getAuth(app);
-    const provider = new GoogleAuthProvider();
 
     // ★ [접근 허용 구글 이메일 명단]
     const ALLOWED_EMAILS = [
-      "suhwan@gmail.com",
-      "voicecure@gmail.com"
+      "suhwanjeongvc@gmail.com",
+      "voicecure1@gmail.com"
     ];
 
     window.loginWithGoogle = async function() {
