@@ -184,6 +184,29 @@
       isDocsifyLoaded = true;
 
       window.$docsify = { name: '', loadSidebar: true, subMaxLevel: 1, basePath: '' };
+      window.$docsify.plugins = [function (hook) {
+        hook.ready(function () {
+          const sidebar = document.querySelector('.sidebar-nav');
+          if (!sidebar) return;
+          sidebar.addEventListener('click', function (event) {
+            if (!window.matchMedia('(max-width: 768px)').matches) return;
+
+            // Keep folder clicks inside the menu; let document links navigate.
+            event.stopPropagation();
+            const link = event.target.closest('a[href]');
+            if (!link || !sidebar.contains(link) || event.defaultPrevented ||
+                event.button !== 0 || event.ctrlKey || event.metaKey ||
+                event.shiftKey || event.altKey || link.hasAttribute('download') ||
+                (link.target && link.target !== '_self')) return;
+            if (!link.getAttribute('href').startsWith('#/')) return;
+
+            // In Docsify's mobile theme, "close" means the drawer is open.
+            document.body.classList.remove('close');
+            const toggle = document.querySelector('.sidebar-toggle');
+            if (toggle) toggle.setAttribute('aria-expanded', 'false');
+          });
+        });
+      }];
 
       const scriptDocsify = document.createElement('script');
       scriptDocsify.src = "//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js";
