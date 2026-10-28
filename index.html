@@ -70,6 +70,50 @@
     .markdown-section h4, .markdown-section h4 a { color: #f0f0f0 !important; }
     .markdown-section strong { color: #ffffff; }
     .sidebar { background-color: #111 !important; width: 360px !important; overflow-x: auto; }
+    .content { left: 360px; }
+    body.close .sidebar { transform: translateX(-100%); }
+    .vc-menu-backdrop { display: none; }
+    @media screen and (max-width: 768px) {
+      body .sidebar, body.close .sidebar {
+        left: 0;
+        width: 360px !important;
+        max-width: calc(100vw - 48px);
+        transform: translateX(-100%) !important;
+        visibility: hidden;
+        overflow-x: hidden;
+        z-index: 40;
+      }
+      body.vc-menu-open .sidebar {
+        transform: translateX(0) !important;
+        visibility: visible;
+      }
+      body .content, body.close .content {
+        left: 0;
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+        transform: none !important;
+      }
+      .sidebar-nav a { white-space: normal; overflow-wrap: anywhere; }
+      .sidebar-pin { display: none !important; }
+      body .sidebar-toggle, body.close .sidebar-toggle {
+        width: 48px;
+        height: 48px;
+        padding: 14px;
+        background: #111;
+        z-index: 50;
+      }
+      body.vc-menu-open .vc-menu-backdrop {
+        display: block;
+        position: fixed;
+        inset: 0;
+        border: 0;
+        background: rgba(0, 0, 0, 0.45);
+        z-index: 30;
+      }
+      body.vc-menu-open { overflow: hidden; }
+    }
     .sidebar ul li a { color: #cccccc !important; font-size: 14px !important; }
     .sidebar ul li.active > a { color: #ffffff !important; font-weight: bold; }
     .sidebar-app-name { font-size: 18px !important; font-weight: 700 !important; color: #ffffff !important; padding: 12px 8px !important; background-color: #111 !important; text-align: center; border-bottom: 1px solid #333; }
@@ -184,29 +228,49 @@
       isDocsifyLoaded = true;
 
       window.$docsify = { name: '', loadSidebar: true, subMaxLevel: 1, basePath: '' };
-      window.$docsify.plugins = [function (hook) {
-        hook.ready(function () {
-          const sidebar = document.querySelector('.sidebar-nav');
-          if (!sidebar) return;
-          sidebar.addEventListener('click', function (event) {
-            if (!window.matchMedia('(max-width: 768px)').matches) return;
-
-            // Keep folder clicks inside the menu; let document links navigate.
-            event.stopPropagation();
-            const link = event.target.closest('a[href]');
-            if (!link || !sidebar.contains(link) || event.defaultPrevented ||
-                event.button !== 0 || event.ctrlKey || event.metaKey ||
-                event.shiftKey || event.altKey || link.hasAttribute('download') ||
-                (link.target && link.target !== '_self')) return;
-            if (!link.getAttribute('href').startsWith('#/')) return;
-
-            // In Docsify's mobile theme, "close" means the drawer is open.
-            document.body.classList.remove('close');
-            const toggle = document.querySelector('.sidebar-toggle');
-            if (toggle) toggle.setAttribute('aria-expanded', 'false');
-          });
-        });
-      }];
+      // Use one mobile drawer state instead of the theme/plugin's competing toggles.
+      const mobileMenu = window.matchMedia('(max-width: 768px)');
+      const backdrop = document.createElement('button');
+      backdrop.className = 'vc-menu-backdrop';
+      backdrop.type = 'button';
+      backdrop.setAttribute('aria-label', '메뉴 닫기');
+      document.getElementById('main-docs').appendChild(backdrop);
+      const setMenuOpen = (open) => {
+        document.body.classList.toggle('vc-menu-open', open);
+        if (mobileMenu.matches) document.body.classList.remove('close');
+        const toggle = document.querySelector('.sidebar-toggle');
+        if (toggle) toggle.setAttribute('aria-expanded', String(open));
+      };
+      document.addEventListener('click', (event) => {
+        if (!mobileMenu.matches || !(event.target instanceof Element)) return;
+        if (event.target.closest('.sidebar-toggle')) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+          setMenuOpen(!document.body.classList.contains('vc-menu-open'));
+          return;
+        }
+        if (event.target.closest('.vc-menu-backdrop')) {
+          setMenuOpen(false);
+          return;
+        }
+        const link = event.target.closest('.sidebar-nav a[href]');
+        if (!link || event.button !== 0 || event.ctrlKey || event.metaKey ||
+            event.shiftKey || event.altKey || link.hasAttribute('download') ||
+            (link.target && link.target !== '_self')) return;
+        const destination = new URL(link.href, window.location.href);
+        if (destination.origin !== window.location.origin ||
+            destination.pathname !== window.location.pathname ||
+            !destination.hash.startsWith('#/')) return;
+        // Preserve Docsify routing and folder handlers, then close even on same-page taps.
+        setTimeout(() => { if (!event.defaultPrevented) setMenuOpen(false); }, 0);
+      }, true);
+      window.addEventListener('hashchange', () => {
+        if (mobileMenu.matches) setMenuOpen(false);
+      });
+      document.addEventListener('keydown', (event) => {
+        if (mobileMenu.matches && event.key === 'Escape') setMenuOpen(false);
+      });
+      mobileMenu.addEventListener('change', () => setMenuOpen(false));
 
       const scriptDocsify = document.createElement('script');
       scriptDocsify.src = "//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js";
