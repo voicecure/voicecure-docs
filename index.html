@@ -188,10 +188,6 @@
       const scriptDocsify = document.createElement('script');
       scriptDocsify.src = "//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js";
       scriptDocsify.onload = () => {
-        const scriptCollapse = document.createElement('script');
-        scriptCollapse.src = "https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js";
-        document.body.appendChild(scriptCollapse);
-
         const sidebarInterval = setInterval(() => {
           const sidebar = document.querySelector('.sidebar');
           if (sidebar && !document.querySelector('.sidebar-app-name')) {
@@ -203,7 +199,21 @@
           }
         }, 100);
       };
-      document.body.appendChild(scriptDocsify);
+
+      // Register sidebar hooks before Docsify initializes, including after login.
+      let isDocsifyStarted = false;
+      const startDocsify = () => {
+        if (isDocsifyStarted) return;
+        isDocsifyStarted = true;
+        document.body.appendChild(scriptDocsify);
+      };
+
+      const scriptCollapse = document.createElement('script');
+      scriptCollapse.src = "https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js";
+      scriptCollapse.onload = startDocsify;
+      // Without the plugin, its hiding CSS is not loaded: keep the default menu.
+      scriptCollapse.onerror = startDocsify;
+      document.body.appendChild(scriptCollapse);
     }
 
     // ★ 실시간 동의 여부 검증 필터
