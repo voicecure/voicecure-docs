@@ -74,6 +74,8 @@
     body.close .sidebar { transform: translateX(-100%); }
     .vc-menu-backdrop { display: none; }
     @media screen and (max-width: 768px) {
+        /* Let the drawer sit above the backdrop outside Docsify main. */
+        #main-docs > main { z-index: auto; }
       body .sidebar, body.close .sidebar {
         left: 0;
         width: 360px !important;
@@ -355,3 +357,4 @@
   </script>
 </body>
 </html>
+
